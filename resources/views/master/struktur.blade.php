@@ -1,5 +1,8 @@
- <!--  breadcrumb-area  start -->
- <div class="wrapper-box p-relative ">
+@extends('layout.main')
+
+@section('isi')
+     <!--  breadcrumb-area  start -->
+   <div class="wrapper-box p-relative ">
     <div class="breadcrumb__bg breadcrumb__bg__overlay pt-130 pb-130 "
        data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg">
        <div class="container">
@@ -9,9 +12,9 @@
                    <div class="breadcrumb__list mb-10">
                       <span><a href="index.html">Home </a></span>
                       <span class="dvdr"> / </span>
-                      <span class="sub-page-black"> Visi Misi</span>
+                      <span class="sub-page-black"> Struktur Organisasi</span>
                    </div>
-                   <h3 class="breadcrumb__title mb-20">Visi & Misi</h3>
+                   <h3 class="breadcrumb__title mb-20">Struktur Organisasi</h3>
                 </div>
              </div>
           </div>
@@ -26,44 +29,11 @@
           <div class="col-xxl-8 col-xl-8 col-lg-8">
              <div class="postbox__wrapper">
                 <article class="postbox__item format-image mb-50 transition-3">
-                   
-                   <div class="postbox__content">
-                     
-                      <h3 class="postbox__title">
-                        Visi
-                      </h3>
-                      <div class="postbox__text" style="text-align: justify;">
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deserunt necessitatibus consequuntur voluptatem rem nostrum molestias ratione tempora, odit numquam quasi officia amet ad neque iste! Nemo sapiente at iure officia accusantium, excepturi fugit veniam deserunt sed voluptatem dolor quisquam non? Magnam vel, praesentium sunt quis autem cumque non rerum.</p>
-                         
-                      </div><br>
-
-                      <h3 class="postbox__title">
-                         Misi
-                       </h3>
-
-                      <div class="postbox__text" style="text-align: justify;">
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deserunt necessitatibus consequuntur voluptatem rem nostrum molestias ratione tempora, odit numquam quasi officia amet ad neque iste! Nemo sapiente at iure officia accusantium, excepturi fugit veniam deserunt sed voluptatem dolor quisquam non? Magnam vel, praesentium sunt quis autem cumque non rerum.</p>
-                         
-                      </div>
-                      <div class="postbox__tagcloud mt-50">
-                         <div class="postbox__tag tagcloud">
-                            <h5>Our Tags</h5>
-                            <a href="#">Insurance</a>
-                            <a href="#">Policy</a>
-                         </div>
-                         <div class="postbox__social">
-                            <div class="icon">
-                               <ul>
-                                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                  <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                               </ul>
-                            </div>
-                         </div>
-                      </div>
-                     
-                   </div>
+                   <div class="postbox__thumb m-img p-relative">
+                      <img src="assets/img/about/struktur.PNG" alt="" width="900px">
+                      <span> 04 Feb</span>
+                </div>
+                 
                 </article>
              </div>
           </div>
@@ -144,4 +114,4 @@
     </div>
  </section>
  <!-- postbox area end -->
- 
+@endsection

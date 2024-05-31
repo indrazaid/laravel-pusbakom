@@ -134,25 +134,25 @@
                            <div class="tp-header__menu text-center ">
                               <nav id="mobile-menu">
                                  <ul>
-                                    <li ><a href="index.html">Home</a></li>
+                                    <li ><a href="/">Home</a></li>
                                     <li><a href="#">Profil</a>
                                        <ul class="sub-menu">
-                                          <li><a href="visi-misi.html">Visi & Misi</a></li>
+                                          <li><a href="/visi">Visi & Misi</a></li>
                                           
-                                          <li><a href="struktur.html" style="font-size: 14px;">Struktur Organisasi </a></li>
+                                          <li><a href="/struktur" style="font-size: 14px;">Struktur Organisasi </a></li>
                                        </ul>
                                     </li>
                                     <li><a href="#">Fasilitas</a>
                                        <ul class="sub-menu">
                                           
-                                          <li><a href="lab-bahasa.html">Lab Bahasa</a></li>
-                                          <li><a href="lab-komputer.html">Lab Komputer</a></li>
-                                          <li><a href="perpus.html">Perpustakaan</a></li>
+                                          <li><a href="/lab-bahasa">Lab Bahasa</a></li>
+                                          <li><a href="/lab-komputer">Lab Komputer</a></li>
+                                          <li><a href="/perpus">Perpustakaan</a></li>
                                        </ul>
                                     </li>
-                                    <li><a href="portfolio_01.html">Galeri</a></li>
-                                    <li><a href="our-blog.html">Berita</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="/galeri">Galeri</a></li>
+                                    <li><a href="/posts">Berita</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                  </ul>
                               </nav>
                            </div>
