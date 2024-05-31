@@ -1,0 +1,412 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<!-- Mirrored from html.weblearnbd.net/insurez/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Sep 2023 06:23:28 GMT -->
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>PUSBAKOM - Pusat Layanan Bahasa, Pustaka dan Komputer</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/css/meanmenu.css">
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+   <link rel="stylesheet" href="assets/css/slick.css">
+   <link rel="stylesheet" href="assets/css/nouislider.css">
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+   <link rel="stylesheet" href="assets/css/flaticon.css">
+   <link rel="stylesheet" href="assets/css/spacing.css">
+   <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+   <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+   <!-- pre loader area start -->
+   <div id="loading">
+      <div id="loading-center">
+         <div id="loading-center-absolute">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_four"></div>
+         </div>
+      </div>
+   </div>
+   <!-- pre loader area end -->
+
+   <!-- back to top start -->
+   <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+         <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" />
+         </svg>
+      </button>
+   </div>
+   <!-- back to top end -->
+   <!-- search popup start -->
+   <div class="search__popup z-index-8">
+      <div class="container">
+         <div class="row">
+            <div class="col-xxl-12">
+               <div class="search__wrapper">
+                  <div class="search__top d-flex justify-content-between align-items-center">
+                     <div class="search__logo">
+                        <a href="index.html">
+                           <img src="assets/img/logo/logo.png" alt="logo">
+                        </a>
+                     </div>
+                     <div class="search__close">
+                        <button type="button" class="search__close-btn search-close-btn">
+                           <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                           </svg>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="search__form">
+                     <form action="#">
+                        <div class="search__input">
+                           <input class="search-input-field" type="text" placeholder="Type here to search...">
+                           <span class="search-focus-border"></span>
+                           <button type="submit">
+                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                    d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="search-popup-overlay"></div>
+   <!-- search popup end -->
+   <!-- header area start -->
+   <header class="main-header d-none d-lg-block">
+      <div class="tp-header">
+         <div id="header-sticky" class="tp-header__wrapper-inner">
+            <div class="tp-header__logo grey-bg-1">
+               <a href="index.html"><img src="assets/img/logo/logo.png" alt="" style="width: 240px;"></a>
+            </div>
+            <div class="tp-header__main-header">
+               <div class="tp-header__top grey-bg-2">
+                  <div class="tp-header__top-left text-left">
+                     <marquee><p class="tp-header-top-left-text white-text">Selamat Datang di Website Pusbakom</p></marquee>
+                  </div>
+                  <div class="tp-header__top-right text-end white-text">
+                     <div class="tp-location mr-30">
+                        <a href="https://www.google.com/maps/place/Maricopa,+AZ,+USA/@33.0435146,-112.0317544,13z/data=!3m1!4b1!4m5!3m4!1s0x872ae52ea99557e3:0x702c0500cea3bb0!8m2!3d33.0581063!4d-112.0476423"
+                           target="_blank"> <i class="flaticon-telephone"></i> (0711)888 999)</a>
+                     </div>
+                     <div class="envelope">
+                        <a href="https://html.weblearnbd.net/cdn-cgi/l/email-protection#17797272737f727b675774787a6776796e3974787a"><i class="fa-solid fa-envelope"></i>
+                           <span class="__cf_email__" data-cfemail="49272c2c2d212c2539092a262439282730672a2624">[email&#160;pusbakom@unuha.ac.id]</span></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="tp-main-menu">
+                  <div class="tp-header__bottom d-flex align-items-center justify-content-between">
+                     <div class="main-menu">
+                        <div class="tp-header__wrapper-inner">
+                           <div class="tp-header__menu text-center ">
+                              <nav id="mobile-menu">
+                                 <ul>
+                                    <li ><a href="index.html">Home</a></li>
+                                    <li><a href="#">Profil</a>
+                                       <ul class="sub-menu">
+                                          <li><a href="visi-misi.html">Visi & Misi</a></li>
+                                          
+                                          <li><a href="struktur.html" style="font-size: 14px;">Struktur Organisasi </a></li>
+                                       </ul>
+                                    </li>
+                                    <li><a href="#">Fasilitas</a>
+                                       <ul class="sub-menu">
+                                          
+                                          <li><a href="lab-bahasa.html">Lab Bahasa</a></li>
+                                          <li><a href="lab-komputer.html">Lab Komputer</a></li>
+                                          <li><a href="perpus.html">Perpustakaan</a></li>
+                                       </ul>
+                                    </li>
+                                    <li><a href="portfolio_01.html">Galeri</a></li>
+                                    <li><a href="our-blog.html">Berita</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                 </ul>
+                              </nav>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tp-header__right-box d-flex justify-content-end align-items-center">
+                        <div class="tp-header__right d-flex align-items-center">
+                           <div class="tp-header-search search-open-btn">
+                              <a href="javascript:void(0);"> <i class="fa-regular fa-magnifying-glass"></i></a>
+                           </div>
+                           <div class="tp-header__contact-number">
+                              <div class="sm-clist__icon">
+                                 <i class="flaticon-telephone"></i>
+                              </div>
+                              <div class="sm-clist__text text-start ml-15 mr-25">
+                                 <span>Telp</span>
+                                 <a href="(0713)888 999 ">(0713)888 999 </a>
+                              </div>
+                           </div>
+                           <div class="tp-header-btn">
+                              <a class="tp-btn" href="contact.html">Daftar</a>
+                           </div>
+                        </div>
+                        <div class="sidebar__menu">
+                           <a class="tp-menu-bar text-black" href="#"><i class="fa-solid fa-bars"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="mobile-header d-md-none grey-bg-1">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-6">
+               <div class="mobile__logo">
+                  <a href="index.html"><img src="assets/img/logo/pusbakom.png" alt="" style="width: 300px;"></a>
+               </div>
+            </div>
+            <div class="col-6">
+               <div class="mobile__menu text-end">
+                  <a class="tp-menu-bar" href="javascript:void(0)"><i class="fa-solid fa-bars"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- header area end -->
+   <!-- tp-offcanvus-area-start -->
+   <div class="tpoffcanvas-area">
+      <div class="offcanvas__wrapper">
+         <div class="tpoffcanvas">
+            <div class="tpoffcanvas__close-btn">
+               <button class="close-btn"><i class="fal fa-times"></i></button>
+            </div>
+            <div class="tpoffcanvas__logo">
+               <a href="index.html">
+                  <img src="assets/img/logo/pusbakom.png" alt="" style="width: 300px;">
+               </a>
+            </div>
+            <div class="mobile-menu"></div>
+            <div class="tpoffcanvas__contact">
+               <h4 class="tpoffcanvas__title">Contacts</h4>
+               <div class="tpoffcanvas__contact-content d-flex">
+                  <div class="tpoffcanvas__contact-content-icon">
+                     <i class="fa-sharp fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="tpoffcanvas__contact-content-content">
+                     <a
+                        href="https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1">86
+                        Road Broklyn Street, 600 </a>
+                  </div>
+               </div>
+               <div class="tpoffcanvas__contact-content d-flex">
+                  <div class="tpoffcanvas__contact-content-icon">
+                     <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="tpoffcanvas__contact-content-content">
+                     <a href="https://html.weblearnbd.net/cdn-cgi/l/email-protection#0d636868696568617d4d6e62607d6c6374236e6260"> <span class="__cf_email__" data-cfemail="93ddf6f6f7fbf6ffe3d3f0fcfee3f2fdeabdf0fcfe">[email&#160;protected]</span> </a>
+                  </div>
+               </div>
+               <div class="tpoffcanvas__contact-content d-flex">
+                  <div class="tpoffcanvas__contact-content-icon">
+                     <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="tpoffcanvas__contact-content-content">
+                     <a href="tel:01310-069824"> +92 666 888 0000</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tpoffcanvas__social">
+               <a class="icon facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+               <a class="icon twitter" href="#"><i class="fab fa-twitter"></i></a>
+               <a class="icon youtube" href="#"><i class="fab fa-youtube"></i></a>
+               <a class="icon linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+
+   <div class="body-overlay"></div>
+   <!-- tp-offcanvus-area-end -->
+   
+   {{-- awal main --}}
+
+   @yield('isi')
+  {{-- akhir main --}}
+   <!-- footer  area start -->
+   <div class="footer__area" data-background="assets/img/footer/img.jpg">
+      <div class="footer__top pt-120 pb-90">
+         <div class="container">
+            <div class="row">
+               <div class="col-xxl-3 col-lg-6 col-md-6  col-sm-6">
+                  <div class="footer__widget footer__widget-1 pb-30">
+                     <div class="footer__logo">
+                        <div class="logo">
+                           <a href="index.html">
+                              <img src="assets/img/logo/logo.png" alt="">
+                           </a>
+                        </div>
+                     </div>
+                     <div class="footer__widget-content">
+                        <div class="footer__widget-info">
+                           <p>Phasellus luctus nibh utfinibultricies. Nulla sit amet urna purus. Aenean vulputate libero
+                              nulla.</p>
+                           <div class="footer__social">
+                              <ul>
+                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                 <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                 <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-6">
+                  <div class="footer__widget footer__widget-2 pb-30">
+                     <h4 class="footer__widget-title footer__widget-title-2">Contact</h4>
+                     <div class="footer__contact-info tp-footer__icon-space">
+                        <ul>
+                           <li>
+                              <span>
+                                 <i class="fa-sharp fa-solid fa-location-dot"></i>
+                              </span>
+                              <a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z" target="_blank">2390
+                                 NBW 2nd Ave, Miami FLT
+                                 33127, USA</a>
+                           </li>
+                           <li>
+                              <span>
+                                 <i class="fa-sharp fa-solid fa-phone"></i>
+                              </span>
+                              <a href="tel:+806(000)8899">+1 305 677-4352</a>
+                           </li>
+                           <li>
+                              <span>
+                                 <i class="fa-solid fa-clock"></i>
+                              </span>
+                              <a href="#">Mon - Sat: 8:00 am - 6:00 pm
+                                 Sunday: closed</a>
+                           </li>
+
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-6">
+                  <div class="footer__widget footer__widget-3 pb-30">
+                     <h3 class="footer__widget-title footer__widget-title-3">Our Gallery</h3>
+                     <div class="fw-insta">
+                        <ul>
+                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
+                                    src="assets/img/instragram/gallary.jpg" alt=""></a></li>
+                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
+                                    src="assets/img/instragram/gallary1.jpg" alt=""></a></li>
+                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
+                                    src="assets/img/instragram/gallary2.jpg" alt=""></a></li>
+                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
+                                    src="assets/img/instragram/gallary3.jpg" alt=""></a></li>
+                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
+                                    src="assets/img/instragram/gallary4.jpg" alt=""></a></li>
+                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
+                                    src="assets/img/instragram/gallary5.jpg" alt=""></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-6">
+                  <div class="footer__widget footer__widget-3 pb-30">
+                     <h3 class="footer__widget-title">Newsletter</h3>
+
+                     <div class="footer__subscribe">
+                        <p>Subscribe our newleter</p>
+                        <form action="#">
+                           <div class="footer__subscribe-input">
+                              <input type="text" placeholder="Email">
+                              <a href="#"> <i class="fa-sharp fa-solid fa-paper-plane"></i></a>
+                           </div>
+                        </form>
+                        <div class="tp-footer-widget__check-box">
+                           <form action="#">
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                 <label class="form-check-label" for="flexCheckDefault">
+                                    I agree to all your terms & policies
+                                 </label>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer__bottom grey-bg-2 pt-25 pb-25">
+         <div class="container">
+            <div class="footer__bottom-inner">
+               <div class="row">
+                  <div class="col-xxl-12">
+                     <div class="footer__copyright text-center">
+                        <p>© Copyright 2023, Insurez. All Rights Reserved</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- footer  area end -->
+   <!-- JS here -->
+   <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery.js"></script>
+   <script src="assets/js/vendor/waypoints.js"></script>
+   <script src="assets/js/bootstrap-bundle.js"></script>
+   <script src="assets/js/meanmenu.js"></script>
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/counterup.js"></script>
+   <script src="assets/js/wow.js"></script>
+   <script src="assets/js/isotope-pkgd.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/ajax-form.js"></script>
+   <script src="assets/js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from html.weblearnbd.net/insurez/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 Sep 2023 06:23:58 GMT -->
+</html>
