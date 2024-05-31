@@ -63,10 +63,7 @@
              <div class="contact ml-40">
                 <div class="map-area">
                    <div class="tpmap-wrapper">
-                      <iframe
-                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13026973.62891735!2d-106.25469552110826!3d37.14286659523624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sbd!4v1681626899539!5m2!1sen!2sbd"
-                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3978.8455764003165!2d104.46269698055335!3d-4.250287181952045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e39030076894cad%3A0x22267490e6050a45!2sKampus%20B%20Universitas%20Nurul%20Huda!5e0!3m2!1sid!2sid!4v1717120410467!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                    </div>
                 </div>
                 <div class="contact__wrap mt-25">
@@ -75,7 +72,7 @@
                          <i class="flaticon-phone-call-1"></i>
                       </div>
                       <div class="contact__info-text">
-                         <h4>+92 (005) 45-678</h4>
+                         <h4>087782027638</h4>
                       </div>
                    </div>
                    <div class="contact__info-item d-flex align-items-start mb-35">
@@ -83,7 +80,7 @@
                          <i class="flaticon-email"></i>
                       </div>
                       <div class="contact__info-text">
-                         <h4><a href="https://html.weblearnbd.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4c22292928242d29203c240c2f23213c2d2235622f2321">[email&#160;protected]</a></h4>
+                         <h4><a href="https://html.weblearnbd.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4c22292928242d29203c240c2f23213c2d2235622f2321">pusbakom@unuha.ac.id</a></h4>
                       </div>
                    </div>
                    <div class="contact__info-item d-flex align-items-start">
@@ -91,8 +88,15 @@
                          <i class="flaticon-location-1"></i>
                       </div>
                       <div class="contact__info-text">
-                         <h4>55 Main street, California USA</h4>
+                         <h4>Kampus A & B: Jl. Kota Baru, Sukaraja, Buay Madang, OKU Timur</h4>
+
                       </div>
+
+                      <div class="contact__info-text">
+                       
+
+                        <h4>Kampus C: Jl. Tanah Merah Jembatan 2, Tanah Merah, Belitang Madang Raya OKU Timur</h4>
+                     </div>
                    </div>
                    <div class="contact__social pt-30">
                       <div class="icon">

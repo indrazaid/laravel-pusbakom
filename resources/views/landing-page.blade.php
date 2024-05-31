@@ -20,7 +20,7 @@
                             <h2 class="tp-slider-title mb-50">PUSBAKOM<br> Universitas Nurul Huda  </h2>
                             <p class="tp-slider-pragrap">Gelorakan Bahasa Ku Genggam Dunia</p>
                             <div class="tp-slide-btn-box">
-                               <a class="tp-btn-3" href="about.html">Visi & Misi</a>
+                               <a class="tp-btn-3" href="#">Visi & Misi</a>
                             </div>
                          </div>
                       </div>
@@ -44,7 +44,7 @@
                             <h2 class="tp-slider-title mb-50">PUSBAKOM <br> Universitas Nurul Huda </h2>
                             <p class="tp-slider-pragrap">Tingkatkan Literasi di Era Moderasi</p>
                             <div class="tp-slide-btn-box">
-                               <a class="tp-btn-3" href="about.html">Visi & Misi</a>
+                               <a class="tp-btn-3" href="#">Visi & Misi</a>
                             </div>
                          </div>
                       </div>
@@ -68,7 +68,7 @@
                             <h2 class="tp-slider-title mb-50">PUSBAKOM<br> Universitas Nurul Huda </h2>
                             <p class="tp-slider-pragrap">Melayanani Dengan sepenuh Hati</p>
                             <div class="tp-slide-btn-box">
-                               <a class="tp-btn-3 " href="about.html">let’s Get Started</a>
+                               <a class="tp-btn-3 " href="#">let’s Get Started</a>
                             </div>
                          </div>
                       </div>
@@ -136,7 +136,7 @@
                                </ul>
                             </div>
                             <div class="tp-about-3__btn-box pt-20">
-                               <a class="tp-btn" href="about.html">About Us</a>
+                               <a class="tp-btn" href="#">About Us</a>
                             </div>
                          </div>
                       </div>
@@ -174,7 +174,7 @@
                    <h3 class="tpfeature__title">E-Library</h3>
                    <p>Perpustakaan UNUHA</p>
                    <div class="tpfeature__btn">
-                      <a href="about.html" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
+                      <a href="#" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
                    </div>
                 </div>
              </div>
@@ -188,7 +188,7 @@
                    <h3 class="tpfeature__title">NHEAT Online </h3>
                    <p>Nurul Huda English Test </p>
                    <div class="tpfeature__btn">
-                      <a href="about.html" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
+                      <a href="#" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
                    </div>
                 </div>
              </div>
@@ -202,7 +202,7 @@
                    <h3 class="tpfeature__title">UKBI Adaptif</h3>
                    <p>Uji Kemahiran Berbahasa Indonesia  </p>
                    <div class="tpfeature__btn">
-                      <a href="about.html" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
+                      <a href="#" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
                    </div>
                 </div>
              </div>
@@ -217,7 +217,7 @@
                    <h3 class="tpfeature__title">UKBI Adaptif</h3>
                    <p>Uji Kemahiran Berbahasa Indonesia  </p>
                    <div class="tpfeature__btn">
-                      <a href="about.html" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
+                      <a href="#" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
                    </div>
                 </div>
              </div>
@@ -231,7 +231,7 @@
                    <h3 class="tpfeature__title">E-Toefl Preparation</h3>
                    <p>Toefl Preparation Test  </p>
                    <div class="tpfeature__btn">
-                      <a href="about.html" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
+                      <a href="#" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
                    </div>
                 </div>
              </div>
@@ -245,7 +245,7 @@
                    <h3 class="tpfeature__title">DUBAS</h3>
                    <p>Duta Bahasa UNUHA</p>
                    <div class="tpfeature__btn">
-                      <a href="about.html" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
+                      <a href="#" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
                    </div>
                 </div>
              </div>
@@ -273,12 +273,12 @@
                 data-wow-delay="300ms">
              <div class="tpblog-3__thumb">
                 <div class="tpblog-3__img  p-relative">
-                   <a href="blog-details.html"><img class="w-100" src="assets/img/blog/blog3.1.jpg" alt=""></a>
+                   <a href="/detail"><img class="w-100" src="assets/img/blog/blog3.1.jpg" alt=""></a>
                    <span class="date">
                       04 Feb, 2023
                    </span>
                    <div class="plus-icon">
-                      <a href="blog-details.html"> <i class="fa-sharp fa-solid fa-plus"></i></a>
+                      <a href="/detail"> <i class="fa-sharp fa-solid fa-plus"></i></a>
                    </div>
                 </div>
              </div>
@@ -291,7 +291,7 @@
                       <i class="flaticon-chat"></i>02 Comments
                    </span>
                 </div>
-                <h3 class="tp-blog-title"><a href="blog-details.html">Money markets rates
+                <h3 class="tp-blog-title"><a href="/detail">Money markets rates
                       finding the best accounts </a></h3>
              </div>
           </div>
@@ -301,12 +301,12 @@
                 data-wow-delay="600ms">
              <div class="tpblog-3__thumb">
                 <div class="tpblog-3__img  p-relative">
-                   <a href="blog-details.html"><img class="w-100" src="assets/img/blog/blog3.2.jpg" alt=""></a>
+                   <a href="/detail"><img class="w-100" src="assets/img/blog/blog3.2.jpg" alt=""></a>
                    <span class="date">
                       04 Feb, 2023
                    </span>
                    <div class="plus-icon">
-                      <a href="blog-details.html"> <i class="fa-sharp fa-solid fa-plus"></i></a>
+                      <a href="/detail"> <i class="fa-sharp fa-solid fa-plus"></i></a>
                    </div>
                 </div>
              </div>
@@ -319,7 +319,7 @@
                       <i class="flaticon-chat"></i>02 Comments
                    </span>
                 </div>
-                <h3 class="tp-blog-title"><a href="blog-details.html">Simple guidance for you in
+                <h3 class="tp-blog-title"><a href="/detail">Simple guidance for you in
                       home insurance </a></h3>
              </div>
           </div>
@@ -329,12 +329,12 @@
                 data-wow-delay="900ms">
              <div class="tpblog-3__thumb">
                 <div class="tpblog-3__img  p-relative">
-                   <a href="blog-details.html"><img class="w-100" src="assets/img/blog/blog3.3.jpg" alt=""></a>
+                   <a href="/detail"><img class="w-100" src="assets/img/blog/blog3.3.jpg" alt=""></a>
                    <span class="date">
                       04 Feb, 2023
                    </span>
                    <div class="plus-icon">
-                      <a href="blog-details.html"> <i class="fa-sharp fa-solid fa-plus"></i></a>
+                      <a href="/detail"> <i class="fa-sharp fa-solid fa-plus"></i></a>
                    </div>
                 </div>
              </div>
@@ -347,7 +347,7 @@
                       <i class="flaticon-chat"></i>02 Comments
                    </span>
                 </div>
-                <h3 class="tp-blog-title"><a href="blog-details.html">The shocking revelation
+                <h3 class="tp-blog-title"><a href="/detail">The shocking revelation
                       of insurance </a></h3>
              </div>
           </div>

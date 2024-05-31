@@ -35,8 +35,8 @@
                    </div>
                    <div class="postbox__content">
                       <div class="postbox__meta">
-                         <span><a href="blog-details.html"><i class="far fa-user"></i>By Themepure</a></span>
-                         <span><a href="blog-details.html"><i class="fal fa-comments"></i> 02 Comments</a></span>
+                         <span><a href="/detail"><i class="far fa-user"></i>By Themepure</a></span>
+                         <span><a href="/detail"><i class="fal fa-comments"></i> 02 Comments</a></span>
                       </div>
                       <h3 class="postbox__title">
                         Start an insurance policy for your future
@@ -83,14 +83,14 @@
                          <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                <div class="postbox__banner-img p-relative">
-                                 <a href="blog-details.html"> <img src="assets/img/blog/blog-banner.png" alt="">
+                                 <a href="/detail"> <img src="assets/img/blog/blog-banner.png" alt="">
                                   <h3 class="blog-banner-title">A place where start a
                                      new lifestyle</h3></a>
                                </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                <div class="postbox__banner-img-yellow p-relative">
-                                  <a href="blog-details.html">   <img src="assets/img/blog/blog-banner.png" alt="">
+                                  <a href="/detail">   <img src="assets/img/blog/blog-banner.png" alt="">
                                      <h3 class="blog-banner-title-black">Get tips to get a quick
                                         life insurance</h3></a>
                                </div>
@@ -115,7 +115,7 @@
                                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                                            ultrices gravida. Risus commodo viverr facilisis. </p>
                                         <div class="postbox__comment-reply">
-                                           <a href="blog-details.html">Reply</a>
+                                           <a href="/detail">Reply</a>
                                         </div>
                                      </div>
                                   </div>
@@ -135,7 +135,7 @@
                                            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
                                            ultrices gravida. Risus commodo viverr facilisis. </p>
                                         <div class="postbox__comment-reply">
-                                           <a href="blog-details.html">Reply</a>
+                                           <a href="/detail">Reply</a>
                                         </div>
                                      </div>
                                   </div>
@@ -194,7 +194,7 @@
                       <div class="sidebar__post p-relative">
                          <div class="rc__post d-flex align-items-center">
                             <div class="rc__post-thumb mr-20">
-                               <a href="blog-details.html"><img src="assets/img/sideber/resent-post.png" alt=""></a>
+                               <a href="/detail"><img src="assets/img/sideber/resent-post.png" alt=""></a>
                                <span> <i class="flaticon-right-arrows"></i></span>
                             </div>
                             <div class="rc__post-content">
@@ -202,14 +202,14 @@
                                   <span><i class="fal fa-comments"></i> 02 Comments</span>
                                </div>
                                <h3 class="rc__post-title">
-                                  <a href="blog-details.html">Designing human body
+                                  <a href="/detail">Designing human body
                                      interfaces</a>
                                </h3>
                             </div>
                          </div>
                          <div class="rc__post d-flex align-items-center">
                             <div class="rc__post-thumb mr-20">
-                               <a href="blog-details.html"><img src="assets/img/sideber/resent-post3.png" alt=""></a>
+                               <a href="/detail"><img src="assets/img/sideber/resent-post3.png" alt=""></a>
                                <span> <i class="flaticon-right-arrows"></i></span>
                             </div>
                             <div class="rc__post-content">
@@ -217,14 +217,14 @@
                                   <span><i class="fal fa-comments"></i> 02 Comments</span>
                                </div>
                                <h3 class="rc__post-title">
-                                  <a href="blog-details.html">Designing human body
+                                  <a href="/detail">Designing human body
                                      interfaces</a>
                                </h3>
                             </div>
                          </div>
                          <div class="rc__post d-flex align-items-center">
                             <div class="rc__post-thumb mr-20">
-                               <a href="blog-details.html"><img src="assets/img/sideber/resent-post2.png" alt=""></a>
+                               <a href="/detail"><img src="assets/img/sideber/resent-post2.png" alt=""></a>
                                <span> <i class="flaticon-right-arrows"></i></span>
                             </div>
                             <div class="rc__post-content">
@@ -232,7 +232,7 @@
                                   <span><i class="fal fa-comments"></i> 02 Comments</span>
                                </div>
                                <h3 class="rc__post-title">
-                                  <a href="blog-details.html">Designing human body
+                                  <a href="/detail">Designing human body
                                      interfaces</a>
                                </h3>
                             </div>
@@ -245,13 +245,13 @@
                    <div class="sidebar__widget-content">
                       <ul>
                          <li>
-                            <a href="blog-details.html">Life imsurance <i class="flaticon-right-arrows"></i></a>
+                            <a href="/detail">Life imsurance <i class="flaticon-right-arrows"></i></a>
                          </li>
-                         <li><a href="blog-details.html">Policies <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="blog-details.html">Marriage <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="blog-details.html"> Car insurance <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="blog-details.html"> Home insurance <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="blog-details.html"> Protection <i class="flaticon-right-arrows"></i></a></li>
+                         <li><a href="/detail">Policies <i class="flaticon-right-arrows"></i></a></li>
+                         <li><a href="/detail">Marriage <i class="flaticon-right-arrows"></i></a></li>
+                         <li><a href="/detail"> Car insurance <i class="flaticon-right-arrows"></i></a></li>
+                         <li><a href="/detail"> Home insurance <i class="flaticon-right-arrows"></i></a></li>
+                         <li><a href="/detail"> Protection <i class="flaticon-right-arrows"></i></a></li>
                       </ul>
                    </div>
                 </div>

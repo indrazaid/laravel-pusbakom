@@ -28,7 +28,7 @@
           <div class="col-xl-4 col-md-6 col-sm-6">
              <div class="tpblog pb-30">
                 <div class="tpblog__thumb-2 fix">
-                   <a href="blog-details.html"><img src="assets/img/blog/img2.jpg" alt=""></a>
+                   <a href="/detail"><img src="assets/img/blog/img2.jpg" alt=""></a>
                    <div class="tpblog__catagori-2">
                       <span>HOME INSURANCE</span>
                    </div>
@@ -39,14 +39,14 @@
                          2022</span>
                       <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
                    </div>
-                   <h3 class="tp-blog-title mb-25"><a href="blog-details.html">Money markets rates
+                   <h3 class="tp-blog-title mb-25"><a href="/detail">Money markets rates
                          finding the best accounts </a></h3>
                    <div class="tp-feed-link d-flex align-items-center">
-                      <a class="tp-btn-4 " href="blog-details.html">Read More</a>
+                      <a class="tp-btn-4 " href="/detail">Read More</a>
                    </div>
                    <div class="tpblog__arrow-box-2">
                       <span>
-                         <a href="blog-details.html"> <i class="fa-solid fa-arrow-right-long"></i></a>
+                         <a href="/detail"> <i class="fa-solid fa-arrow-right-long"></i></a>
                       </span>
                    </div>
                 </div>
@@ -55,7 +55,7 @@
           <div class="col-xl-4 col-md-6 col-sm-6">
              <div class="tpblog pb-30">
                 <div class="tpblog__thumb-2 fix">
-                   <a href="blog-details.html"><img src="assets/img/blog/blog-big.jpg" alt=""></a>
+                   <a href="/detail"><img src="assets/img/blog/blog-big.jpg" alt=""></a>
                    <div class="tpblog__catagori-2">
                       <span>Life INSURANCE</span>
                    </div>
@@ -66,14 +66,14 @@
                          2022</span>
                       <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
                    </div>
-                   <h3 class="tp-blog-title mb-25"><a href="blog-details.html">Insurance covers risk of
+                   <h3 class="tp-blog-title mb-25"><a href="/detail">Insurance covers risk of
                          fire absence </a></h3>
                    <div class="tp-feed-link d-flex align-items-center">
-                      <a class="tp-btn-4 " href="blog-details.html">Read More</a>
+                      <a class="tp-btn-4 " href="/detail">Read More</a>
                    </div>
                    <div class="tpblog__arrow-box-2">
                       <span>
-                         <a href="blog-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+                         <a href="/detail"><i class="fa-solid fa-arrow-right-long"></i></a>
                       </span>
                    </div>
                 </div>
@@ -82,7 +82,7 @@
           <div class="col-xl-4 col-md-6 col-sm-6">
              <div class="tpblog pb-30">
                 <div class="tpblog__thumb-2 fix">
-                   <a href="blog-details.html"><img src="assets/img/blog/img3.jpg" alt=""></a>
+                   <a href="/detail"><img src="assets/img/blog/img3.jpg" alt=""></a>
                    <div class="tpblog__catagori-2">
                       <span>Business INSURANCE</span>
                    </div>
@@ -93,14 +93,14 @@
                          2022</span>
                       <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
                    </div>
-                   <h3 class="tp-blog-title mb-25"><a href="blog-details.html">It’s a long established fact
+                   <h3 class="tp-blog-title mb-25"><a href="/detail">It’s a long established fact
                          that a reader</a></h3>
                    <div class="tp-feed-link d-flex align-items-center">
-                      <a class="tp-btn-4 " href="blog-details.html">Read More</a>
+                      <a class="tp-btn-4 " href="/detail">Read More</a>
                    </div>
                    <div class="tpblog__arrow-box-2">
                       <span>
-                         <a href="blog-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+                         <a href="/detail"><i class="fa-solid fa-arrow-right-long"></i></a>
                       </span>
                    </div>
                 </div>
@@ -109,7 +109,7 @@
           <div class="col-xl-4 col-md-6 col-sm-6">
              <div class="tpblog pb-30">
                 <div class="tpblog__thumb-2 fix">
-                   <a href="blog-details.html"><img src="assets/img/blog/blog3.4.jpg" alt=""></a>
+                   <a href="/detail"><img src="assets/img/blog/blog3.4.jpg" alt=""></a>
                    <div class="tpblog__catagori-2">
                       <span>CAR INSURANCE</span>
                    </div>
@@ -121,15 +121,15 @@
                       <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
                    </div>
 
-                   <h3 class="tp-blog-title mb-25"><a href="blog-details.html">Former insures ony the
+                   <h3 class="tp-blog-title mb-25"><a href="/detail">Former insures ony the
                          merine perils </a></h3>
 
                    <div class="tp-feed-link d-flex align-items-center">
-                      <a class="tp-btn-4 " href="blog-details.html">Read More</a>
+                      <a class="tp-btn-4 " href="/detail">Read More</a>
                    </div>
                    <div class="tpblog__arrow-box-2">
                       <span>
-                         <a href="blog-details.html"> <i class="fa-solid fa-arrow-right-long"></i></a>
+                         <a href="/detail"> <i class="fa-solid fa-arrow-right-long"></i></a>
                       </span>
                    </div>
                 </div>
@@ -138,7 +138,7 @@
           <div class="col-xl-4 col-md-6 col-sm-6">
              <div class="tpblog pb-30">
                 <div class="tpblog__thumb-2 fix">
-                   <a href="blog-details.html"><img src="assets/img/blog/blog3.5.jpg" alt=""></a>
+                   <a href="/detail"><img src="assets/img/blog/blog3.5.jpg" alt=""></a>
                    <div class="tpblog__catagori-2">
                       <span>HOME INSURANCE</span>
                    </div>
@@ -149,14 +149,14 @@
                          2022</span>
                       <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
                    </div>
-                   <h3 class="tp-blog-title mb-25"><a href="blog-details.html">How to make contrary to
+                   <h3 class="tp-blog-title mb-25"><a href="/detail">How to make contrary to
                          popular insurance </a></h3>
                    <div class="tp-feed-link d-flex align-items-center">
-                      <a class="tp-btn-4 " href="blog-details.html">Read More</a>
+                      <a class="tp-btn-4 " href="/detail">Read More</a>
                    </div>
                    <div class="tpblog__arrow-box-2">
                       <span>
-                         <a href="blog-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+                         <a href="/detail"><i class="fa-solid fa-arrow-right-long"></i></a>
                       </span>
                    </div>
                 </div>
@@ -165,7 +165,7 @@
           <div class="col-xl-4 col-md-6 col-sm-6">
              <div class="tpblog pb-30">
                 <div class="tpblog__thumb-2 fix">
-                   <a href="blog-details.html"><img src="assets/img/blog/blog3.6.jpg" alt=""></a>
+                   <a href="/detail"><img src="assets/img/blog/blog3.6.jpg" alt=""></a>
                    <div class="tpblog__catagori-2">
                       <span>LIFE INSURANCE</span>
                    </div>
@@ -176,14 +176,14 @@
                          2022</span>
                       <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
                    </div>
-                   <h3 class="tp-blog-title mb-25"><a href="blog-details.html">Guide to audio visual java
+                   <h3 class="tp-blog-title mb-25"><a href="/detail">Guide to audio visual java
                          jsa script </a></h3>
                    <div class="tp-feed-link d-flex align-items-center">
-                      <a class="tp-btn-4 " href="blog-details.html">Read More</a>
+                      <a class="tp-btn-4 " href="/detail">Read More</a>
                    </div>
                    <div class="tpblog__arrow-box-2">
                       <span>
-                         <a href="blog-details.html"><i class="fa-solid fa-arrow-right-long"></i></a>
+                         <a href="/detail"><i class="fa-solid fa-arrow-right-long"></i></a>
                       </span>
                    </div>
                 </div>
