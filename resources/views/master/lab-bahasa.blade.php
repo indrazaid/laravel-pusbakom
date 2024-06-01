@@ -10,11 +10,11 @@
              <div class="col-xxl-12">
                 <div class="breadcrumb__content p-relative z-index-1 text-center">
                    <div class="breadcrumb__list mb-10">
-                      <span><a href="index.html">INSUREZ </a></span>
+                      <span><a href="index.html">Laboratorium Bahasa </a></span>
                       <span class="dvdr"> / </span>
-                      <span class="sub-page-black"> Blog Details</span>
+                      <span class="sub-page-black"> Laboratorium Bahasa</span>
                    </div>
-                   <h3 class="breadcrumb__title mb-20">Blog Details</h3>
+                   <h3 class="breadcrumb__title mb-20">Laboratorium Bahasa</h3>
                 </div>
              </div>
           </div>
