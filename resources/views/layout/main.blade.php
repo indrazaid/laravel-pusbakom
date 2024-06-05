@@ -151,7 +151,7 @@
                                        </ul>
                                     </li>
                                     <li><a href="/galeri">Galeri</a></li>
-                                    <li><a href="/posts">Berita</a></li>
+                                    <li><a href="/post">Berita</a></li>
                                     <li><a href="/contact">Contact</a></li>
                                  </ul>
                               </nav>

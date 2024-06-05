@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,9 +44,9 @@ Route::get('/galeri', function () {
     return view('master.galeri');
 });
 
-Route::get('/posts', function () {
-    return view('master.posts');
-});
+// Tampil Semua Berita
+Route::get('/post',[PostController::class,'index']);
+Route::get('/post/{post:slug}',[PostController::class,'show']); 
 
 Route::get('/detail', function () {
     return view('master.detail');
@@ -55,6 +56,8 @@ Route::get('/detail', function () {
 Route::get('/contact', function () {
     return view('master.contact');
 });
+
+
 
 
 
