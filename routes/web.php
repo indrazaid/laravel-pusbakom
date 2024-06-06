@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LandingController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 
@@ -15,9 +16,11 @@ use App\Http\Controllers\PostController;
 */
 
 // landing page
-Route::get('/', function () {
-    return view('landing-page');
-});
+// Route::get('/', function () {
+//     return view('landing-page');
+// });
+
+Route::get('/',[LandingController::class,'index']);
 
 Route::get('/visi', function () {
     return view('master.visi');

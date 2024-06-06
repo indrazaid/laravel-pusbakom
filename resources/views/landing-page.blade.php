@@ -268,7 +268,13 @@
        </div>
     </div>
     <div class="row">
+       {{-- awal foreach --}}
+      @foreach ($recentPosts as $recentPost)
        <div class="col-xl-4 col-md-6 col-sm-6">
+       
+        
+             
+       
           <div class="tpblog-3 p-relative pb-30 wow fadeInUp" data-wow-duration="1.5s"
                 data-wow-delay="300ms">
              <div class="tpblog-3__thumb">
@@ -291,67 +297,16 @@
                       <i class="flaticon-chat"></i>02 Comments
                    </span>
                 </div>
-                <h3 class="tp-blog-title"><a href="/detail">Money markets rates
-                      finding the best accounts </a></h3>
+                <h3 class="tp-blog-title"><a href="/post/{{$recentPost->slug}}">{{$recentPost->judul}}</a></h3>
              </div>
           </div>
+
+         
+         
        </div>
-       <div class="col-xl-4 col-md-6 col-sm-6">
-          <div class="tpblog-3 p-relative pb-30 wow fadeInUp" data-wow-duration="1.5s"
-                data-wow-delay="600ms">
-             <div class="tpblog-3__thumb">
-                <div class="tpblog-3__img  p-relative">
-                   <a href="/detail"><img class="w-100" src="assets/img/blog/blog3.2.jpg" alt=""></a>
-                   <span class="date">
-                      04 Feb, 2023
-                   </span>
-                   <div class="plus-icon">
-                      <a href="/detail"> <i class="fa-sharp fa-solid fa-plus"></i></a>
-                   </div>
-                </div>
-             </div>
-             <div class="tpblog-3__content">
-                <div class="tpblog-3__meta mb-15">
-                   <span class="user mr-15">
-                      <i class="fa-light fa-user"></i> by themepure
-                   </span>
-                   <span class="Comments pr-25">
-                      <i class="flaticon-chat"></i>02 Comments
-                   </span>
-                </div>
-                <h3 class="tp-blog-title"><a href="/detail">Simple guidance for you in
-                      home insurance </a></h3>
-             </div>
-          </div>
-       </div>
-       <div class="col-xl-4 col-md-6 col-sm-6">
-          <div class="tpblog-3 p-relative pb-30 wow fadeInUp" data-wow-duration="1.5s"
-                data-wow-delay="900ms">
-             <div class="tpblog-3__thumb">
-                <div class="tpblog-3__img  p-relative">
-                   <a href="/detail"><img class="w-100" src="assets/img/blog/blog3.3.jpg" alt=""></a>
-                   <span class="date">
-                      04 Feb, 2023
-                   </span>
-                   <div class="plus-icon">
-                      <a href="/detail"> <i class="fa-sharp fa-solid fa-plus"></i></a>
-                   </div>
-                </div>
-             </div>
-             <div class="tpblog-3__content">
-                <div class="tpblog-3__meta mb-15">
-                   <span class="user mr-15">
-                      <i class="fa-light fa-user"></i> by themepure
-                   </span>
-                   <span class="Comments pr-25">
-                      <i class="flaticon-chat"></i>02 Comments
-                   </span>
-                </div>
-                <h3 class="tp-blog-title"><a href="/detail">The shocking revelation
-                      of insurance </a></h3>
-             </div>
-          </div>
-       </div>
+       @endforeach
+
+        {{-- Akhir foreach --}}
     </div>
  </div>
 </div>

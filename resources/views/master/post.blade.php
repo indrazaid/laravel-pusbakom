@@ -40,9 +40,9 @@
                          2022</span>
                       <span class="user"><i class="fa-light fa-user"></i> by themepure</span>
                    </div>
-                   <h3 class="tp-blog-title mb-25"><a href="/detail">{{$val->judul}}</a></h3>
+                   <h3 class="tp-blog-title mb-25"><a href="/post/{{$val->slug}}">{{$val->judul}}</a></h3>
                    <div class="tp-feed-link d-flex align-items-center">
-                      <a class="tp-btn-4 " href="/detail">Read More</a>
+                      <a class="tp-btn-4 " href="/post/{{$val->slug}}">Read More</a>
                    </div>
                    <div class="tpblog__arrow-box-2">
                       <span>
