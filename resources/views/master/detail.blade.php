@@ -40,7 +40,7 @@
                    <div class="postbox__content">
                       <div class="postbox__meta">
                          <span><a href="/detail"><i class="far fa-user"></i>By Themepure</a></span>
-                         <span><a href="/detail"><i class="fal fa-comments"></i> 
+                         <span><a href="/category/{{$post->category->slug}}"><i class="fal fa-comments"></i> 
                            
                            {{ $post->category->name }}</a></span>
                       </div>
@@ -129,7 +129,7 @@
                     
                       <ul>
                         @foreach ($CategoryPost as $val)
-                        <li><a href="/detail">{{$val->category->name}} <i class="flaticon-right-arrows"></i></a></li>
+                        <li><a href="/category/{{$val->category->slug}}">{{$val->category->name}} <i class="flaticon-right-arrows"></i></a></li>
                         @endforeach
                         
                       </ul>

@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\LandingController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Models\Category;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,7 +55,11 @@ Route::get('/post',[PostController::class,'index']);
 Route::get('/post/{post:slug}',[PostController::class,'show']); 
 
 // Tampil Category
+Route::get('/categories',[CategoryController::class,'index']);
 
+// Route::get('/categories/{category:slug}',[CategoryController::class,'show']);
+
+Route::get('/category/{category:slug}',[CategoryController::class,'show']);
 
 Route::get('/detail', function () {
     return view('master.detail');

@@ -14,8 +14,22 @@ class CategoryController extends Controller
 
     }
     public function index(){
-        $category = Category::all();
-        return view($this->view_dir.'detail', compact('category'));
+        $categories = Category::all();
+        return view($this->view_dir.'categories', compact('categories'));
         // return view('master.post');
     }
+
+    // public function show(Category $category){
+    //     $category = Category::all();
+    //     return view($this->view_dir.'category', compact('category'));
+    //     // return view('master.post');
+    // }
+
+    public function show(Category $category){
+        return view('master.category',[
+           'title' => 'Posts Category',
+           'post' => $category->post,
+           'category' => $category->name
+        ]);
+      }
 }
