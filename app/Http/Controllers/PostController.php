@@ -20,7 +20,12 @@ class PostController extends Controller
 
     public function show(Post $post){
        
-        return view($this->view_dir.'detail', compact('post'));
+        $recentPosts = Post::orderBy('publish_at', 'desc')->take(5)->get();
+
+        $CategoryPost = Post::all();
+
+        return view('master.detail', compact( 'post', 'recentPosts','CategoryPost'));
+        // return view($this->view_dir.'detail', compact('post'));
     }
 
   

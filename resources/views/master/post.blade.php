@@ -55,7 +55,13 @@
          
           @endforeach
 
-
+          <div class="sidebar__widget-content">
+                  
+                         
+                    
+           
+         
+         </div>
 
        </div>
     </div>

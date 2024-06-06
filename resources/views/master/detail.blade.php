@@ -40,7 +40,9 @@
                    <div class="postbox__content">
                       <div class="postbox__meta">
                          <span><a href="/detail"><i class="far fa-user"></i>By Themepure</a></span>
-                         <span><a href="/detail"><i class="fal fa-comments"></i> {{ $post->category->name }}</a></span>
+                         <span><a href="/detail"><i class="fal fa-comments"></i> 
+                           
+                           {{ $post->category->name }}</a></span>
                       </div>
                       <h3 class="postbox__title">
                         {{ $post->judul }}
@@ -93,6 +95,10 @@
                 <div class="sidebar__widget sidebar__widget-2 mb-40">
                    <h3 class="sidebar__widget-title">Our latest post</h3>
                    <div class="sidebar__widget-content">
+                       {{-- recent post --}}
+                       
+                       @foreach($recentPosts as $recentPost)
+                     
                       <div class="sidebar__post p-relative">
                          <div class="rc__post d-flex align-items-center">
                             <div class="rc__post-thumb mr-20">
@@ -104,57 +110,30 @@
                                   <span><i class="fal fa-comments"></i> 02 Comments</span>
                                </div>
                                <h3 class="rc__post-title">
-                                  <a href="/detail">Designing human body
-                                     interfaces</a>
+                                  <a href="/detail">{{$recentPost->judul}}</a>
                                </h3>
                             </div>
                          </div>
-                         <div class="rc__post d-flex align-items-center">
-                            <div class="rc__post-thumb mr-20">
-                               <a href="/detail"><img src="assets/img/sideber/resent-post3.png" alt=""></a>
-                               <span> <i class="flaticon-right-arrows"></i></span>
-                            </div>
-                            <div class="rc__post-content">
-                               <div class="rc__meta">
-                                  <span><i class="fal fa-comments"></i> 02 Comments</span>
-                               </div>
-                               <h3 class="rc__post-title">
-                                  <a href="/detail">Designing human body
-                                     interfaces</a>
-                               </h3>
-                            </div>
-                         </div>
-                         <div class="rc__post d-flex align-items-center">
-                            <div class="rc__post-thumb mr-20">
-                               <a href="/detail"><img src="assets/img/sideber/resent-post2.png" alt=""></a>
-                               <span> <i class="flaticon-right-arrows"></i></span>
-                            </div>
-                            <div class="rc__post-content">
-                               <div class="rc__meta">
-                                  <span><i class="fal fa-comments"></i> 02 Comments</span>
-                               </div>
-                               <h3 class="rc__post-title">
-                                  <a href="/detail">Designing human body
-                                     interfaces</a>
-                               </h3>
-                            </div>
-                         </div>
+                        
                       </div>
+                      @endforeach
+
+
                    </div>
                 </div>
                 <div class="sidebar__widget sidebar__widget-3 mb-40">
                    <h3 class="sidebar__widget-title">Catagories</h3>
                    <div class="sidebar__widget-content">
+                  
+                         
+                    
                       <ul>
-                         <li>
-                            <a href="/detail">Life imsurance <i class="flaticon-right-arrows"></i></a>
-                         </li>
-                         <li><a href="/detail">Policies <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="/detail">Marriage <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="/detail"> Car insurance <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="/detail"> Home insurance <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="/detail"> Protection <i class="flaticon-right-arrows"></i></a></li>
+                        @foreach ($CategoryPost as $val)
+                        <li><a href="/detail">{{$val->category->name}} <i class="flaticon-right-arrows"></i></a></li>
+                        @endforeach
+                        
                       </ul>
+                   
                    </div>
                 </div>
                 

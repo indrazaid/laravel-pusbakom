@@ -46,7 +46,11 @@ Route::get('/galeri', function () {
 
 // Tampil Semua Berita
 Route::get('/post',[PostController::class,'index']);
+// Route::get('/post/{post:slug}',[PostController::class,'show']); 
 Route::get('/post/{post:slug}',[PostController::class,'show']); 
+
+// Tampil Category
+
 
 Route::get('/detail', function () {
     return view('master.detail');
