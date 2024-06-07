@@ -272,9 +272,6 @@
       @foreach ($recentPosts as $recentPost)
        <div class="col-xl-4 col-md-6 col-sm-6">
        
-        
-             
-       
           <div class="tpblog-3 p-relative pb-30 wow fadeInUp" data-wow-duration="1.5s"
                 data-wow-delay="300ms">
              <div class="tpblog-3__thumb">

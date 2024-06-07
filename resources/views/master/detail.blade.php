@@ -39,7 +39,7 @@
                    </div>
                    <div class="postbox__content">
                       <div class="postbox__meta">
-                         <span><a href="/detail"><i class="far fa-user"></i>By Themepure</a></span>
+                         <span><a href="/users/{{$post->user->id}}"><i class="far fa-user"></i>{{$post->user->name}}</a></span>
                          <span><a href="/category/{{$post->category->slug}}"><i class="fal fa-comments"></i> 
                            
                            {{ $post->category->name }}</a></span>

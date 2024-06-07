@@ -24,6 +24,8 @@ class PostController extends Controller
 
         $CategoryPost = Post::all();
 
+        
+
         return view('master.detail', compact( 'post', 'recentPosts','CategoryPost'));
         // return view($this->view_dir.'detail', compact('post'));
     }

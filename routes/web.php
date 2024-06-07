@@ -4,6 +4,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\LandingController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\UserController;
 use App\Models\Category;
 
 /*
@@ -60,6 +61,9 @@ Route::get('/categories',[CategoryController::class,'index']);
 // Route::get('/categories/{category:slug}',[CategoryController::class,'show']);
 
 Route::get('/category/{category:slug}',[CategoryController::class,'show']);
+
+// Tampil User post
+Route::get('/users/{user:id}',[UserController::class,'show']);
 
 Route::get('/detail', function () {
     return view('master.detail');
