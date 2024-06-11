@@ -18,7 +18,7 @@ class UserController extends Controller
          $post = $user->post;
          $user = $user->name;
 
-         return view('master.users',compact('tilte','post','user'));
+         return view('master.users',compact('title','post','user'));
 
     }
 }
