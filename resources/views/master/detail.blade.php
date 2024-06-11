@@ -128,8 +128,8 @@
                          
                     
                       <ul>
-                        @foreach ($CategoryPost as $val)
-                        <li><a href="/category/{{$val->category->slug}}">{{$val->category->name}} <i class="flaticon-right-arrows"></i></a></li>
+                        @foreach ($CategoryPost as $category)
+                        <li><a href="/category/{{$category->slug}}">{{$category->name}} <i class="flaticon-right-arrows"></i></a></li>
                         @endforeach
                         
                       </ul>

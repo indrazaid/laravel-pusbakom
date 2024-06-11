@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 class CategoryController extends Controller
@@ -14,8 +15,9 @@ class CategoryController extends Controller
 
     }
     public function index(){
+        $title ='Post Category';
         $categories = Category::all();
-        return view($this->view_dir.'categories', compact('categories'));
+        return view($this->view_dir.'categories', compact('title','categories'));
         // return view('master.post');
     }
 
@@ -26,10 +28,14 @@ class CategoryController extends Controller
     // }
 
     public function show(Category $category){
-        return view('master.category',[
-           'title' => 'Posts Category',
-           'post' => $category->post,
-           'category' => $category->name
-        ]);
+        // return view('master.category',[
+        //    'title' => 'Posts Category',
+        //    'post' => $category->post,
+        //    'category' => $category->name
+        // ]);
+        $title ='Post Category';
+        $post = $category->post;
+        $category = $category->name;
+        return view('master.category', compact('title','post','category'));
       }
 }

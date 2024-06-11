@@ -26,28 +26,28 @@ use App\Models\Category;
 Route::get('/',[LandingController::class,'index']);
 
 Route::get('/visi', function () {
-    return view('master.visi');
+    return view('master.visi',['title'=> 'Visi dan Misi']);
 });
 
 Route::get('/struktur', function () {
-    return view('master.struktur');
+    return view('master.struktur',['title'=> 'Struktur Organisasi']);
 });
 
 Route::get('/perpus', function () {
-    return view('master.perpus');
+    return view('master.perpus',['title'=> 'Perpustakaan']);
 });
 
 Route::get('/lab-bahasa', function () {
-    return view('master.lab-bahasa');
+    return view('master.lab-bahasa',['title'=> 'Lab Bahasa']);
 });
 
 Route::get('/lab-komputer', function () {
-    return view('master.lab-komputer');
+    return view('master.lab-komputer',['title'=> 'Lab Komputer']);
 });
 
 
 Route::get('/galeri', function () {
-    return view('master.galeri');
+    return view('master.galeri',['title'=> 'Galeri']);
 });
 
 // Tampil Semua Berita
@@ -71,7 +71,7 @@ Route::get('/detail', function () {
 
 
 Route::get('/contact', function () {
-    return view('master.contact');
+    return view('master.contact',['title'=> 'Contact']);
 });
 
 
