@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\LandingController;
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\UserController;
@@ -73,6 +74,9 @@ Route::get('/detail', function () {
 Route::get('/contact', function () {
     return view('master.contact',['title'=> 'Contact']);
 });
+
+// Login
+Route::get('/login',[LoginController::class,'index']);
 
 
 
