@@ -5,6 +5,7 @@ use App\Http\Controllers\LandingController;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\UserController;
 use App\Models\Category;
 
@@ -25,6 +26,7 @@ use App\Models\Category;
 // });
 
 Route::get('/',[LandingController::class,'index']);
+
 
 Route::get('/visi', function () {
     return view('master.visi',['title'=> 'Visi dan Misi']);
@@ -74,9 +76,20 @@ Route::get('/detail', function () {
 Route::get('/contact', function () {
     return view('master.contact',['title'=> 'Contact']);
 });
-
+// ADMIN
 // Login
-Route::get('/login',[LoginController::class,'index']);
+Route::get('/login',[LoginController::class,'index'])->name('login')->middleware('guest');
+Route::post('/login',[LoginController::class,'authenticate']);
+Route::post('/logout',[LoginController::class,'logout']);
+
+// Register
+Route::get('/register',[RegisterController::class,'index']);
+Route::post('/register',[RegisterController::class,'store']);
+
+Route::get('/dashboard', function () {
+    return view('admin.dashboard',['title'=> 'Dasboard']);
+})->middleware('auth');
+
 
 
 

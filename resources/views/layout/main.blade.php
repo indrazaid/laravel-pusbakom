@@ -173,10 +173,12 @@
                                  <a href="(0713)888 999 ">(0713)888 999 </a>
                               </div>
                            </div>
+                          
                            <div class="tp-header-btn">
                               <a class="tp-btn" href="contact.html">Daftar</a>
                            </div>
                         </div>
+                        
                         <div class="sidebar__menu">
                            <a class="tp-menu-bar text-black" href="#"><i class="fa-solid fa-bars"></i></a>
                         </div>
