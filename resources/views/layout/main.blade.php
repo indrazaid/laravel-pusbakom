@@ -14,7 +14,7 @@
    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
 
    <!-- CSS here -->
-   <link rel="stylesheet" href="{{asset('assets/css/sign-in.css')}}">
+   
    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.css')}}">
    <link rel="stylesheet" href="{{asset('assets/css/meanmenu.css')}}">
    <link rel="stylesheet" href="{{asset('assets/css/animate.css')}}">

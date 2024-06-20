@@ -8,8 +8,10 @@
   <title>Document</title>
   <link rel="stylesheet" href="{{asset('assets/css/sign-in.css')}}">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+ 
 </head>
-<body>
+<body class="text-center">
    @if(@session()->has('succes'))
     
 
@@ -34,8 +36,9 @@
   <main class="form-signin w-100 m-auto">
     <form method="POST" action="/login" enctype="multipart/form-data">
      @csrf
+     <img class="mb-4" src="{{asset('assets/img/logo/unh.png')}}" alt="error" width="100" height="100">
       <h1 class="h3 mb-3 fw-normal">Login Administrator</h1>
-  
+      
       <div class="form-floating">
         <input type="email" class="form-control @error('email') is-nvalid @enderror" id="floatingInput" name="email" placeholder="name@example.com">
         <label for="floatingInput">Email address</label>
