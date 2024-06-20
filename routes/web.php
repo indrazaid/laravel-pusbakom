@@ -90,6 +90,10 @@ Route::get('/dashboard', function () {
     return view('admin.dashboard',['title'=> 'Dasboard']);
 })->middleware('auth');
 
+Route::get('/berita', function () {
+    return view('admin.berita',['title'=> 'Berita']);
+})->middleware('auth');
+
 
 
 
