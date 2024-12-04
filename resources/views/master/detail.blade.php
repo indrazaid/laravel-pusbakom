@@ -11,7 +11,7 @@
              <div class="col-xxl-12">
                 <div class="breadcrumb__content p-relative z-index-1 text-center">
                    <div class="breadcrumb__list mb-10">
-                      <span><a href="index.html">INSUREZ </a></span>
+                      <span><a href="index.html">INSUREZs </a></span>
                       <span class="dvdr"> / </span>
                       <span class="sub-page-black"> Blog Details</span>
                    </div>
@@ -110,7 +110,7 @@
                                   <span><i class="fal fa-comments"></i> 02 Comments</span>
                                </div>
                                <h3 class="rc__post-title">
-                                  <a href="/detail">{{$recentPost->judul}}</a>
+                                  <a href="/post/{{$recentPost->slug}}">{{$recentPost->judul}}</a>
                                </h3>
                             </div>
                          </div>

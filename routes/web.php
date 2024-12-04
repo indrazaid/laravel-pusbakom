@@ -1,13 +1,14 @@
 <?php
 
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\LandingController;
-use App\Http\Controllers\LoginController;
+use App\Models\Category;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
-use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\UserController;
-use App\Models\Category;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\LandingController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\StrukturController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,9 +33,12 @@ Route::get('/visi', function () {
     return view('master.visi',['title'=> 'Visi dan Misi']);
 });
 
-Route::get('/struktur', function () {
-    return view('master.struktur',['title'=> 'Struktur Organisasi']);
-});
+// Route::get('/struktur', function () {
+//     return view('master.struktur',['title'=> 'Struktur Organisasi']);
+// });
+
+// Tampil Struktur
+Route::get('/struktur',[StrukturController::class,'index']);
 
 Route::get('/perpus', function () {
     return view('master.perpus',['title'=> 'Perpustakaan']);

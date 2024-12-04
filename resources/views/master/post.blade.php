@@ -9,7 +9,7 @@
              <div class="col-xxl-12">
                 <div class="breadcrumb__content p-relative z-index-1 text-center">
                    <div class="breadcrumb__list mb-10">
-                      <span><a href="index.html">INSUREZ </a></span>
+                      <span><a href="index.html">INSUREZs </a></span>
                       <span class="dvdr"> / </span>
                       <span class="sub-page-black">Our Blog</span>
                    </div>
