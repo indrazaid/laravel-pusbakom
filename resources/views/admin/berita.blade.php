@@ -9,7 +9,7 @@
     </div>
 
    
-    <h2>Selamat Datang di Laman Berita</h2>
+    <h2>Selamat Datang di Laman Berita test</h2>
 
    
     
