@@ -1,12 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Models\Category;
 use App\Models\Post;
 use Illuminate\Http\Request;
 
-class StrukturController extends Controller
+class KomputerController extends Controller
 {
     public function __construct()
     {
@@ -15,11 +14,12 @@ class StrukturController extends Controller
     }
     public function index(){
         $post = Post::all();
-        $title ='Struktur  ';
+        $title ='Lab Komputer ';
         $recentPosts = Post::orderBy('publish_at', 'desc')->take(5)->get();
         $CategoryPost = Category::all();
+
      
-        return view($this->view_dir.'struktur', compact('title','post','recentPosts','CategoryPost'));
+        return view($this->view_dir.'lab-komputer', compact('title','post','recentPosts','CategoryPost'));
         
         // return view('master.post');
     }
@@ -44,5 +44,4 @@ class StrukturController extends Controller
         // return view($this->view_dir.'detail', compact('post'));
     }
 
-  
 }

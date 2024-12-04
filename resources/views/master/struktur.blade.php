@@ -70,21 +70,22 @@
                   </div>
                </div>
                
-                <div class="sidebar__widget sidebar__widget-3 mb-40">
-                   <h3 class="sidebar__widget-title">Catagories</h3>
-                   <div class="sidebar__widget-content">
-                      <ul>
-                         <li>
-                            <a href="blog-details.html">Life imsurance <i class="flaticon-right-arrows"></i></a>
-                         </li>
-                         <li><a href="blog-details.html">Policies <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="blog-details.html">Marriage <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="blog-details.html"> Car insurance <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="blog-details.html"> Home insurance <i class="flaticon-right-arrows"></i></a></li>
-                         <li><a href="blog-details.html"> Protection <i class="flaticon-right-arrows"></i></a></li>
-                      </ul>
-                   </div>
-                </div>
+               <div class="sidebar__widget sidebar__widget-3 mb-40">
+                  <h3 class="sidebar__widget-title">Catagories</h3>
+                  <div class="sidebar__widget-content">
+                 
+                        
+                   
+                     <ul>
+                       @foreach ($CategoryPost as $category)
+                       <li><a href="/category/{{$category->slug}}">{{$category->name}} <i class="flaticon-right-arrows"></i></a></li>
+                       @endforeach
+                       
+                     </ul>
+                  
+                  </div>
+               </div>
+               
                
              </div>
           </div>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BahasaController;
 use App\Models\Category;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
@@ -7,8 +8,11 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\KomputerController;
+use App\Http\Controllers\PerpusController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\StrukturController;
+use App\Http\Controllers\VisiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,9 +33,13 @@ use App\Http\Controllers\StrukturController;
 Route::get('/',[LandingController::class,'index']);
 
 
-Route::get('/visi', function () {
-    return view('master.visi',['title'=> 'Visi dan Misi']);
-});
+// Route::get('/visi', function () {
+//     return view('master.visi',['title'=> 'Visi dan Misi']);
+// });
+
+// Tampil Visi dan Misi
+Route::get('/visi',[VisiController::class,'index']);
+
 
 // Route::get('/struktur', function () {
 //     return view('master.struktur',['title'=> 'Struktur Organisasi']);
@@ -44,14 +52,15 @@ Route::get('/perpus', function () {
     return view('master.perpus',['title'=> 'Perpustakaan']);
 });
 
-Route::get('/lab-bahasa', function () {
-    return view('master.lab-bahasa',['title'=> 'Lab Bahasa']);
-});
+// Route::get('/lab-bahasa', function () {
+//     return view('master.lab-bahasa',['title'=> 'Lab Bahasa']);
+// });
+// Tampil Lab Bahasa
+Route::get('/lab-bahasa',[BahasaController::class,'index']);
 
-Route::get('/lab-komputer', function () {
-    return view('master.lab-komputer',['title'=> 'Lab Komputer']);
-});
+Route::get('/lab-komputer',[KomputerController::class,'index']);
 
+Route::get('/perpus',[PerpusController::class,'index']);
 
 Route::get('/galeri', function () {
     return view('master.galeri',['title'=> 'Galeri']);
