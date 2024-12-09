@@ -11,7 +11,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <!-- Place favicon.ico in the root directory -->
-   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/lg.png">
 
    <!-- CSS here -->
    
@@ -143,15 +143,15 @@
                                           <li><a href="/struktur" style="font-size: 14px;">Struktur Organisasi </a></li>
                                        </ul>
                                     </li>
-                                    <li><a href="#">Fasilitas</a>
+                                    {{-- <li><a href="#">Fasilitas</a>
                                        <ul class="sub-menu">
                                           
                                           <li><a href="/lab-bahasa">Lab Bahasa</a></li>
                                           <li><a href="/lab-komputer">Lab Komputer</a></li>
                                           <li><a href="/perpus">Perpustakaan</a></li>
                                        </ul>
-                                    </li>
-                                    <li><a href="/galeri">Galeri</a></li>
+                                    </li> --}}
+                                    <li><a href="/galeri">Fasilitas</a></li>
                                     <li><a href="/post">Berita</a></li>
                                     <li><a href="/contact">Contact</a></li>
                                  </ul>
@@ -285,8 +285,8 @@
                      </div>
                      <div class="footer__widget-content">
                         <div class="footer__widget-info">
-                           <p>Phasellus luctus nibh utfinibultricies. Nulla sit amet urna purus. Aenean vulputate libero
-                              nulla.</p>
+                           <p>Pusat Layanan Bahasa, Pustaka & Komputer
+                              Universitas Nurul Huda</p>
                            <div class="footer__social">
                               <ul>
                                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -308,24 +308,22 @@
                               <span>
                                  <i class="fa-sharp fa-solid fa-location-dot"></i>
                               </span>
-                              <a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z" target="_blank">2390
-                                 NBW 2nd Ave, Miami FLT
-                                 33127, USA</a>
+                              <a href="https://www.google.com/maps/@41.6758525,-86.2531698,18.17z" target="_blank">Kampus A & B: Jl. Kota Baru, Sukaraja, Buay Madang, OKU Timur</a>
                            </li>
                            <li>
                               <span>
                                  <i class="fa-sharp fa-solid fa-phone"></i>
                               </span>
-                              <a href="tel:+806(000)8899">+1 305 677-4352</a>
+                              <a href="tel:+806(000)8899">087782027638</a>
                            </li>
                            <li>
                               <span>
                                  <i class="fa-solid fa-clock"></i>
                               </span>
-                              <a href="#">Mon - Sat: 8:00 am - 6:00 pm
-                                 Sunday: closed</a>
+                              <a href="#">Monday - Friday: 8:00 am - 4:00 pm
+                                Saturday, Sunday: closed</a>
                            </li>
-
+     
                         </ul>
                      </div>
                   </div>
@@ -385,7 +383,7 @@
                <div class="row">
                   <div class="col-xxl-12">
                      <div class="footer__copyright text-center">
-                        <p>© Copyright 2023, Insurez. All Rights Reserved</p>
+                        <p>© Copyright 2023, PUSBAKOM. All Rights Reserved</p>
                      </div>
                   </div>
                </div>

@@ -31,7 +31,7 @@
           <div class="swiper-slide ">
              <div
                 class="slider-item single-slider tp-slider-overlay tp-slider__height d-flex align-items-center p-relative z-index-1 ">
-                <div class="tp-slider__bg" data-background="assets/img/bg/bg3.2.jpg"></div>
+                <div class="tp-slider__bg" data-background="assets/img/bg/bg.jpeg"></div>
                 <div class="tp-slider-3__bg-3"></div>
                 <div class="tp-slider-3__shap-left z-index-5"></div>
                 <div class="tp-slider-3__shap z-index-2">
@@ -55,7 +55,7 @@
           <div class="swiper-slide ">
              <div
                 class="slider-item single-slider tp-slider-overlay tp-slider__height d-flex align-items-center p-relative z-index-1 ">
-                <div class="tp-slider__bg" data-background="assets/img/bg/bg3.3.jpg"></div>
+                <div class="tp-slider__bg" data-background="assets/img/bg/bg.jpeg"></div>
                 <div class="tp-slider-3__bg-3"></div>
                 <div class="tp-slider-3__shap-left z-index-5"></div>
                 <div class="tp-slider-3__shap z-index-2">
@@ -92,7 +92,7 @@
              <div class="tp-about-3__wrapper p-relative mr-20 mt-40 mb-70">
                 <div class="tp-about-3__box">
                    <div class="ms-img">
-                      <img src="assets/img/about/tp-about-3.2.jpg" alt="">
+                      <img src="assets/img/about/pusatb1.png" alt="">
                    </div>
                    <div class="lg-img">
                       <img src="assets/img/about/tp-about-3.1.jpg" alt="">
@@ -174,7 +174,7 @@
                    <h3 class="tpfeature__title">E-Library</h3>
                    <p>Perpustakaan UNUHA</p>
                    <div class="tpfeature__btn">
-                      <a href="#" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
+                      <a href="https://perpus.unuha.ac.id/" target="blank" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
                    </div>
                 </div>
              </div>
@@ -188,7 +188,7 @@
                    <h3 class="tpfeature__title">NHEAT Online </h3>
                    <p>Nurul Huda English Test </p>
                    <div class="tpfeature__btn">
-                      <a href="#" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
+                      <a href="https://nheat.unuha.ac.id/" target="blank" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
                    </div>
                 </div>
              </div>
@@ -231,7 +231,7 @@
                    <h3 class="tpfeature__title">E-Toefl Preparation</h3>
                    <p>Toefl Preparation Test  </p>
                    <div class="tpfeature__btn">
-                      <a href="#" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
+                      <a href="https://nheat.unuha.ac.id/" target="blank" class="tp-btn-text">AKSES <i class="fa-light fa-arrow-right"></i></a>
                    </div>
                 </div>
              </div>

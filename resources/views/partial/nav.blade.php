@@ -33,7 +33,7 @@
                                   <li ><a href="index.html">Home</a></li>
                                   <li><a href="#">Profil</a>
                                      <ul class="sub-menu">
-                                        <li><a href="/visi">Visi & Misi</a></li>
+                                        <li><a href="/visi">Visi & Misiss</a></li>
                                         
                                         <li><a href="struktur.html" style="font-size: 14px;">Struktur Organisasi </a></li>
                                      </ul>

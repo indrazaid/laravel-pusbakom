@@ -35,7 +35,8 @@
                         Visi
                       </h3>
                       <div class="postbox__text" style="text-align: justify;">
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deserunt necessitatibus consequuntur voluptatem rem nostrum molestias ratione tempora, odit numquam quasi officia amet ad neque iste! Nemo sapiente at iure officia accusantium, excepturi fugit veniam deserunt sed voluptatem dolor quisquam non? Magnam vel, praesentium sunt quis autem cumque non rerum.</p>
+                         <p>Menjadi pusat pelatihan dan kegiatan bahasa yang professional bagi civitas akademika dan masyarakat umum.
+                        </p>
                          
                       </div><br>
 
@@ -44,26 +45,14 @@
                        </h3>
 
                       <div class="postbox__text" style="text-align: justify;">
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deserunt necessitatibus consequuntur voluptatem rem nostrum molestias ratione tempora, odit numquam quasi officia amet ad neque iste! Nemo sapiente at iure officia accusantium, excepturi fugit veniam deserunt sed voluptatem dolor quisquam non? Magnam vel, praesentium sunt quis autem cumque non rerum.</p>
-                         
+                        <ol><li> <p>Memberikan layanan kursus dan pelatihan bahasa untuk menunjang peningkatan kualitas civitas akademika (dosen, staf dan mahasiswa) dan masyarakat umum.</p></li>
+                        <li><p>Menyediakan pelayanan pengujian bahasa Inggris (setara TOEFL)  dan Bahasa Indonesia (UKBI) kepada civitas akademika dan masyarakat umum.</p></li>
+                        <li><p>Menjalin kerja sama dengan lembaga-lembaga kebahasaan yang lain demi terwujudnya akselerasi program-program bahasa</p></li>
+                        <li><p>Berperan serta secara aktif dalam pemberdayaan masyarakat melalui aktivitas kebahasaan.</p></li>
+                        </ol>
+                        
                       </div>
-                      <div class="postbox__tagcloud mt-50">
-                         <div class="postbox__tag tagcloud">
-                            <h5>Our Tags</h5>
-                            <a href="#">Insurance</a>
-                            <a href="#">Policy</a>
-                         </div>
-                         <div class="postbox__social">
-                            <div class="icon">
-                               <ul>
-                                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                  <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
-                               </ul>
-                            </div>
-                         </div>
-                      </div>
+                      
                      
                    </div>
                 </article>
