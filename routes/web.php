@@ -8,6 +8,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LandingController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\DashboardPostController;
 use App\Http\Controllers\KomputerController;
 use App\Http\Controllers\PerpusController;
 use App\Http\Controllers\RegisterController;
@@ -102,6 +103,9 @@ Route::post('/register',[RegisterController::class,'store']);
 Route::get('/dashboard', function () {
     return view('admin.dashboard',['title'=> 'Dasboard']);
 })->middleware('auth');
+
+
+Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
 
 Route::get('/berita', function () {
     return view('admin.berita',['title'=> 'Berita']);

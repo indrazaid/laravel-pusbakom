@@ -54,6 +54,12 @@
               </a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="/dashboard/posts">
+                <span data-feather="shopping-cart" class="align-text-bottom"></span>
+                MyPost
+              </a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="/galeri">
                 <span data-feather="users" class="align-text-bottom"></span>
                 Galeri
