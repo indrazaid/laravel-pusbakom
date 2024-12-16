@@ -3,17 +3,17 @@
      <!--  breadcrumb-area  start -->
    <div class="wrapper-box p-relative ">
     <div class="breadcrumb__bg breadcrumb__bg__overlay pt-130 pb-130 "
-       data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg">
+       {{-- data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg" --}}>
        <div class="container">
           <div class="row">
              <div class="col-xxl-12">
                 <div class="breadcrumb__content p-relative z-index-1 text-center">
-                   <div class="breadcrumb__list mb-10">
+                   {{-- <div class="breadcrumb__list mb-10">
                       <span><a href="index.html">INSUREZs </a></span>
                       <span class="dvdr"> / </span>
                       <span class="sub-page-black">Our Blog</span>
-                   </div>
-                   <h3 class="breadcrumb__title mb-20">Our Blog</h3>
+                   </div> --}}
+                   <h3 class="breadcrumb__title mb-20">Berita</h3>
                 </div>
              </div>
           </div>

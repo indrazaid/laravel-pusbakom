@@ -170,12 +170,12 @@
                               </div>
                               <div class="sm-clist__text text-start ml-15 mr-25">
                                  <span>Telp</span>
-                                 <a href="(0713)888 999 ">(0713)888 999 </a>
+                                 <a href="087782027638 ">087782027638</a>
                               </div>
                            </div>
                           
                            <div class="tp-header-btn">
-                              <a class="tp-btn" href="contact.html">Daftar</a>
+                              <a class="tp-btn" href="https://nheat.unuha.ac.id/" target="blank">Daftar</a>
                            </div>
                         </div>
                         
@@ -227,8 +227,7 @@
                   </div>
                   <div class="tpoffcanvas__contact-content-content">
                      <a
-                        href="https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1">86
-                        Road Broklyn Street, 600 </a>
+                        href="">Kampus A & B: Jl. Kota Baru, Sukaraja, Buay Madang, OKU Timur</a>
                   </div>
                </div>
                <div class="tpoffcanvas__contact-content d-flex">
@@ -236,7 +235,7 @@
                      <i class="fa-solid fa-envelope"></i>
                   </div>
                   <div class="tpoffcanvas__contact-content-content">
-                     <a href="https://html.weblearnbd.net/cdn-cgi/l/email-protection#0d636868696568617d4d6e62607d6c6374236e6260"> <span class="__cf_email__" data-cfemail="93ddf6f6f7fbf6ffe3d3f0fcfee3f2fdeabdf0fcfe">[email&#160;protected]</span> </a>
+                     <a href="https://html.weblearnbd.net/cdn-cgi/l/email-protection#0d636868696568617d4d6e62607d6c6374236e6260"> <span class="__cf_email__" data-cfemail="93ddf6f6f7fbf6ffe3d3f0fcfee3f2fdeabdf0fcfe">pusbakom@unuha.ac.id</span> </a>
                   </div>
                </div>
                <div class="tpoffcanvas__contact-content d-flex">
@@ -244,7 +243,7 @@
                      <i class="fa-solid fa-phone"></i>
                   </div>
                   <div class="tpoffcanvas__contact-content-content">
-                     <a href="tel:01310-069824"> +92 666 888 0000</a>
+                     <a href=""> 087782027638</a>
                   </div>
                </div>
             </div>
@@ -329,48 +328,72 @@
                   </div>
                </div>
                <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-6">
-                  <div class="footer__widget footer__widget-3 pb-30">
-                     <h3 class="footer__widget-title footer__widget-title-3">Our Gallery</h3>
-                     <div class="fw-insta">
+                  <div class="footer__widget footer__widget-2 pb-30">
+                     <h4 class="footer__widget-title footer__widget-title-2">Akademik</h4>
+                     <div class="footer__contact-info tp-footer__icon-space">
                         <ul>
-                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
-                                    src="assets/img/instragram/gallary.jpg" alt=""></a></li>
-                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
-                                    src="assets/img/instragram/gallary1.jpg" alt=""></a></li>
-                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
-                                    src="assets/img/instragram/gallary2.jpg" alt=""></a></li>
-                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
-                                    src="assets/img/instragram/gallary3.jpg" alt=""></a></li>
-                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
-                                    src="assets/img/instragram/gallary4.jpg" alt=""></a></li>
-                           <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i> <img
-                                    src="assets/img/instragram/gallary5.jpg" alt=""></a></li>
+                           <li>
+                              <span>
+                                 <i class=""></i>
+                              </span>
+                              <a href="" target="_blank">SIAKAD</a>
+                           </li>
+                           <li>
+                              <span>
+                                 <i class=""></i>
+                              </span>
+                              <a href="">E-Learning</a>
+                           </li>
+                           <li>
+                              <span>
+                                 <i class=""></i>
+                              </span>
+                              <a href="#">WebMail</a>
+                           </li>
+                           <li>
+                              <span>
+                                 <i class=""></i>
+                              </span>
+                              <a href="#">Jurnal Ilmiah</a>
+                           </li>
+                           <li>
+                              <span>
+                                 <i class=""></i>
+                              </span>
+                              <a href="#">Jurnal Ilmiah Mahasiswa</a>
+                           </li>
+     
                         </ul>
                      </div>
                   </div>
                </div>
+              
                <div class="col-xxl-3 col-lg-6 col-md-6 col-sm-6">
-                  <div class="footer__widget footer__widget-3 pb-30">
-                     <h3 class="footer__widget-title">Newsletter</h3>
-
-                     <div class="footer__subscribe">
-                        <p>Subscribe our newleter</p>
-                        <form action="#">
-                           <div class="footer__subscribe-input">
-                              <input type="text" placeholder="Email">
-                              <a href="#"> <i class="fa-sharp fa-solid fa-paper-plane"></i></a>
-                           </div>
-                        </form>
-                        <div class="tp-footer-widget__check-box">
-                           <form action="#">
-                              <div class="form-check">
-                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                 <label class="form-check-label" for="flexCheckDefault">
-                                    I agree to all your terms & policies
-                                 </label>
-                              </div>
-                           </form>
-                        </div>
+                  <div class="footer__widget footer__widget-2 pb-30">
+                     <h4 class="footer__widget-title footer__widget-title-2">Fakultas</h4>
+                     <div class="footer__contact-info tp-footer__icon-space">
+                        <ul>
+                           <li>
+                              <span>
+                                 <i class=""></i>
+                              </span>
+                              <a href="" target="_blank">Fakultas Agama Islam</a>
+                           </li>
+                           <li>
+                              <span>
+                                 <i class=""></i>
+                              </span>
+                              <a href="">Fakultas Ilmu Pendidikan</a>
+                           </li>
+                           <li>
+                              <span>
+                                 <i class=""></i>
+                              </span>
+                              <a href="#">Fakultas Sains & Teknologi</a>
+                           </li>
+                          
+     
+                        </ul>
                      </div>
                   </div>
                </div>
