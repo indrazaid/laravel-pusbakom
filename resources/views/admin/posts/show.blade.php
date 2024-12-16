@@ -20,7 +20,7 @@
                       </h3>
                       
                       <div class="postbox__meta">
-                        <a href="/dashboard/posts" class="btn btn-success">Back </a>
+                        <a href="/dashboard/posts" class="btn btn-success">Back to</a>
                         <a href="" class="btn btn-info">Edit </a>
                         <span><a  class="btn btn-warning" href="/category/{{$post->category->slug}}"><i class="fal fa-comments"></i> 
                           
