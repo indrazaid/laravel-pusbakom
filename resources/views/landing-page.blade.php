@@ -98,7 +98,7 @@
                       <img src="assets/img/about/tp-about-3.1.jpg" alt="">
                    </div>
                    <div class="md-img">
-                      <img src="assets/img/about/tp-about-3.3.JPEG" alt="" width="380px"; height="280px";>
+                      <img src="assets/img/about/tp-about-3.3.jpeg" alt="" width="380px"; height="280px";>
                    </div>
                    <div class="tp-about-3__counter p-relative ml-60">
                       <div class="shap">
