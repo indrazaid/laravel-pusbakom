@@ -164,15 +164,7 @@
                            <div class="tp-header-search search-open-btn">
                               <a href="javascript:void(0);"> <i class="fa-regular fa-magnifying-glass"></i></a>
                            </div>
-                           <div class="tp-header__contact-number">
-                              <div class="sm-clist__icon">
-                                 <i class="flaticon-telephone"></i>
-                              </div>
-                              <div class="sm-clist__text text-start ml-15 mr-25">
-                                 <span>Telp</span>
-                                 <a href="087782027638 ">087782027638</a>
-                              </div>
-                           </div>
+                           
                           
                            <div class="tp-header-btn">
                               <a class="tp-btn" href="https://nheat.unuha.ac.id/" target="blank">Daftar</a>
