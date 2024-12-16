@@ -153,7 +153,7 @@
                                     </li> --}}
                                     <li><a href="/galeri">Fasilitas</a></li>
                                     <li><a href="/post">Berita</a></li>
-                                    <li><a href="/contact">Contact</a></li>
+                                    <li><a class="nav-link {{Request::is('/contact') ? 'active': '' }}" href="/contact">Contact</a></li>
                                  </ul>
                               </nav>
                            </div>

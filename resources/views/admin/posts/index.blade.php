@@ -10,6 +10,37 @@
 
    
     <h2>Selamat Datang di Laman Berita test</h2>
+    <div class="table-responsive col-lg-8">
+      <table class="table table-striped table-sm">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Title</th>
+            <th scope="col">Category</th>
+            <th scope="col">Action</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          @foreach ($posts as $post)
+          <tr>
+            <td>{{$loop->iteration}}</td>
+            <td>{{$post->judul}}</td>
+            <td>{{$post->category->name}}</td>
+            <td>
+              <a href="/dashboard/posts/{{$post->slug}}" class="btn btn-info ">View</a>
+              <a href="" class="btn btn-warning" >Update</a>
+              <a href="" class="btn btn-danger">Delete</a>
+            </td>
+          </tr>
+              
+          @endforeach
+          
+         
+        </tbody>
+      </table>
+    </div>
+ 
 
    
     

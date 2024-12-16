@@ -14,7 +14,10 @@ class DashboardPostController extends Controller
      */
     public function index()
     {
-        return view('admin.posts.index');
+        // Return Post::where('user_id',auth()->user()->id)->get();
+        return view('admin.posts.index',[
+            'posts' => Post::where('user_id',auth()->user()->id)->get()
+            ]);
     }
 
     /**
@@ -41,12 +44,15 @@ class DashboardPostController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  App\Models\Post $post
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Post $post)
     {
-        //
+        return view('admin.posts.show',[
+            'post' => $post
+        ]);
+        
     }
 
     /**

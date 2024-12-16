@@ -21,4 +21,9 @@ class Post extends Model
    public function User(){
     return $this->belongsTo(User::class);
    }
+
+   //membuat deafult id menjadi slug
+   public function getRouteKeyName(){
+    return 'slug';
+   }
 }
