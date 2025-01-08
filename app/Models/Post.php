@@ -11,7 +11,7 @@ class Post extends Model
 {
     
     use HasFactory;
-    use Sluggable;
+    // use Sluggable;
 
    protected $guarded = ['id'];
 
