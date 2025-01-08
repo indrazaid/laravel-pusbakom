@@ -5,12 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+// use Cviebrock\EloquentSluggable\Sluggable;
 
 class Post extends Model
 {
+    
     use HasFactory;
+    use Sluggable;
 
    protected $guarded = ['id'];
+
+   
 
    public function Category(){
     
@@ -26,4 +31,13 @@ class Post extends Model
    public function getRouteKeyName(){
     return 'slug';
    }
+
+//    public function sluggable(): array
+//    {
+//        return [
+//            'slug' => [
+//                'source' => 'judul'
+//            ]
+//        ];
+//    }
 }

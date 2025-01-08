@@ -11,6 +11,7 @@
    
     <h2>Selamat Datang di Laman Berita </h2>
     <div class="table-responsive">
+      <a href="posts/create" class="btn btn-primary mb-3">Create Post</a>
       <table class="table table-striped table-sm">
         <thead>
           <tr>

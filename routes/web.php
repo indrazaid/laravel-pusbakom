@@ -107,6 +107,8 @@ Route::get('/dashboard', function () {
 
 Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
 
+// Route::get('dashboard/posts/checkSlug',[DashboardPostController::class,'checkSlug'])->middleware('auth');
+
 Route::get('/berita', function () {
     return view('admin.berita',['title'=> 'Berita']);
 })->middleware('auth');
