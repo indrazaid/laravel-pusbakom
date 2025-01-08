@@ -52,6 +52,8 @@ class DashboardPostController extends Controller
         return view('admin.posts.show',[
             'post' => $post
         ]);
+
+        
         
     }
 
