@@ -5,7 +5,7 @@
  <div class="col-lg-8">
 
 
-     <form method="post" action="dashboard/posts" enctype="multipart/form-data">
+     <form method="post" action="/dashboard/posts" enctype="multipart/form-data">
         @csrf
 
         <div class="mb-3">
@@ -19,6 +19,36 @@
             <input type="text" class="form-control" id="slug" name="slug" readonly >
            
           </div>
+
+          <div class="mb-3">
+            <label for="formFoto" class="form-label">Upload Gambar</label>
+            <input class="form-control" type="file" id="foto" name="foto">
+          </div>
+
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Upload File</label>
+            <input class="form-control" type="file" id="file" name="file">
+          </div>
+
+          <div class="mb-3">
+            <label for="category" class="form-label">Pilih Kategori:</label>
+            <select id="category" class="form-select" name="category">
+              @foreach ($categories as $category)
+                  
+              <option value="{{$category->id}}">{{$category->name}}</option>
+              
+              @endforeach
+               
+            </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="body" class="form-label">Body</label>
+
+          <input id="body" type="hidden" name="body">
+         <trix-editor input="body"></trix-editor>
+        </div>
+        
        
         <button type="submit" class="btn btn-primary">Create</button>
       </form>

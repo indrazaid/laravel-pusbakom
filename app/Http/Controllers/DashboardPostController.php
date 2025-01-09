@@ -28,7 +28,8 @@ class DashboardPostController extends Controller
      */
     public function create()
     {
-        return view('admin.posts.create');
+        $categories = Category::all();
+        return view('admin.posts.create', compact('categories'));
     }
 
     /**
@@ -39,7 +40,7 @@ class DashboardPostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return $request;
     }
 
     /**
