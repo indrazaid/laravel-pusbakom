@@ -40,7 +40,30 @@ class DashboardPostController extends Controller
      */
     public function store(Request $request)
     {
-        return $request;
+        // return $request;
+        $data = $request->validate([
+            'judul' => 'required',
+            'slug' => 'required|unique:posts',
+            'category_id' => 'required',
+            'body' => 'required'
+        ]);
+
+        $data['user_id'] = auth()->user()->id;
+        Post::create($data);
+        return redirect('/dashboard/posts')->withSuccess('Dosen berhasil ditambahkan');
+        // $post = new Post();
+        // $post->fill($request->all());
+        // $store = $post->save();
+     
+        // if ($store){
+        //     return redirect('/dashboard/posts')->withSuccess('Dosen berhasil ditambahkan');
+
+        // }else
+        // {
+        //     return redirect()->back()->withErrors("Data Gagal Ditambahkan");
+
+        // }
+        
     }
 
     /**

@@ -278,7 +278,7 @@
                 <div class="tpblog-3__img  p-relative">
                    <a href="/detail"><img class="w-100" src="assets/img/blog/blog3.1.jpg" alt=""></a>
                    <span class="date">
-                      04 Feb, 2023
+                     {{$recentPost->slug}}
                    </span>
                    <div class="plus-icon">
                       <a href="/detail"> <i class="fa-sharp fa-solid fa-plus"></i></a>

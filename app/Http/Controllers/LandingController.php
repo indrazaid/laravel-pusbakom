@@ -9,7 +9,7 @@ class LandingController extends Controller
 {
     public function index(){
         $title ='Pusat Layanan Bahasa ,Pustaka dan Komputer';
-        $recentPosts = Post::orderBy('publish_at', 'desc')->take(5)->get();
+        $recentPosts = Post::orderBy('created_at', 'desc')->take(6)->get();
         return view('landing-page', compact('title', 'recentPosts'));
     }
 }

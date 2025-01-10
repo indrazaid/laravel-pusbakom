@@ -15,7 +15,7 @@ class PostController extends Controller
 
     }
     public function index(){
-        $post = Post::all();
+        $post = Post::orderBy('created_at', 'desc')->get();
         $title ='Post  ';
 
      
@@ -27,7 +27,7 @@ class PostController extends Controller
        
         $title ='Post Show ';
        
-        $recentPosts = Post::orderBy('publish_at', 'desc')->take(5)->get();
+        $recentPosts = Post::orderBy('created_at', 'desc')->take(6)->get();
 
         $CategoryPost = Category::all();
 

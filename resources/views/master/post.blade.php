@@ -36,8 +36,7 @@
                 </div>
                 <div class="tpblog__content-2">
                    <div class="tpblog__meta-2 mb-15">
-                      <span class="date pr-25"><i class="fa-regular fa-calendar"></i> Nov 4,
-                         2022</span>
+                      <span class="date pr-25"><i class="fa-regular fa-calendar"></i> {{$val->created_at}}</span>
                       <span class="user"><i class="fa-light fa-user"></i> <a href="/users/{{$val->user_id}}">{{$val->user->name}}</a></span>
                    </div>
                    <h3 class="tp-blog-title mb-25"><a href="/post/{{$val->slug}}">{{$val->judul}}</a></h3>

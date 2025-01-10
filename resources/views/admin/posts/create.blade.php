@@ -10,7 +10,7 @@
 
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Judul</label>
-          <input type="text" class="form-control" id="judul" name="judul" >
+          <input type="text" class="form-control" id="judul" name="judul" required>
          
         </div>
 
@@ -32,10 +32,14 @@
 
           <div class="mb-3">
             <label for="category" class="form-label">Pilih Kategori:</label>
-            <select id="category" class="form-select" name="category">
+            <select id="category_id" class="form-select" name="category_id">
               @foreach ($categories as $category)
+                @if (old('category_id') == $category->id)
+                  <option value="{{$category->id}}" selected >{{$category->name}}</option>
+                @else
+                  <option value="{{$category->id}}"  >{{$category->name}}</option>
+                @endif
                   
-              <option value="{{$category->id}}">{{$category->name}}</option>
               
               @endforeach
                
