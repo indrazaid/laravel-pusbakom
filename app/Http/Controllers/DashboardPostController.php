@@ -104,7 +104,16 @@ class DashboardPostController extends Controller
      */
     public function update(Request $request,Post $post)
     {
-        
+        $data = $request->validate([
+            'judul' => 'required',
+            'slug' => 'required|unique:posts,slug,' . $post->id,
+            'category_id' => 'required',
+            'body' => 'required'
+        ]);
+
+        $data['user_id'] = auth()->user()->id;
+        Post::where('id', $post->id)->update($data);
+        return redirect('/dashboard/posts')->withSuccess('Data berhasil diubah');
     }
 
     /**
