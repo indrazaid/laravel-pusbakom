@@ -31,8 +31,13 @@
             <td>
             
                 <a href="/dashboard/posts/{{$post->slug}}">lihat</a>
-                <a href="">ubah</a>
-                <a href="">hapus</a>
+                <a href="/dashboard/posts/{{$post->slug}}/edit">ubah</a>
+                <form action="/dashboard/posts/{{$post->slug}}" method="POST">
+                @csrf
+                @method('delete')
+                <button class="badge bg-danger" onclick="return confirm('are you sure want to delete?')">Hapus</button>
+                </form>
+                
 
               
             </td>

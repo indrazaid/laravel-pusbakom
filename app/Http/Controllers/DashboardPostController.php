@@ -85,35 +85,40 @@ class DashboardPostController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     *  @param  App\Models\Post $post
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Post $post)
     {
-        //
+        
+        $categories = Category::all();
+        return view('admin.posts.edit',compact('post','categories'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  App\Models\Post $post
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request,Post $post)
     {
-        //
+        
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  App\Models\Post $post
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Post $post)
     {
-        //
+        // $post = Post::find($post->id);
+        // $post->delete();
+        Post::destroy($post->id);
+        return redirect('/dashboard/posts')->withSuccess('Berhasil di hapus');
     }
 
     // public function checkSlug(Request $request)
