@@ -276,19 +276,19 @@
                 data-wow-delay="300ms">
              <div class="tpblog-3__thumb">
                 <div class="tpblog-3__img  p-relative">
-                   <a href="/detail"><img class="w-100" src="assets/img/blog/blog3.1.jpg" alt=""></a>
+                   <a href="/detail"><img class="w-100" src="{{asset('storage/'.$recentPost->foto)}}" alt="{{$recentPost->category->name}}"></a>
                    <span class="date">
-                     {{$recentPost->slug}}
+                     {{$recentPost->created_at}}
                    </span>
                    <div class="plus-icon">
-                      <a href="/detail"> <i class="fa-sharp fa-solid fa-plus"></i></a>
+                      <a href="/post/{{$recentPost->slug}}"> <i class="fa-sharp fa-solid fa-plus"></i></a>
                    </div>
                 </div>
              </div>
              <div class="tpblog-3__content">
                 <div class="tpblog-3__meta mb-15">
                    <span class="user mr-15">
-                      <i class="fa-light fa-user"></i> by themepure
+                      <i class="fa-light fa-user"></i> {{$recentPost->user->name}}
                    </span>
                    <span class="Comments pr-25">
                       <i class="flaticon-chat"></i>02 Comments

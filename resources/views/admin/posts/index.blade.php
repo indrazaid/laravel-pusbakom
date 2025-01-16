@@ -18,6 +18,7 @@
             <th scope="col">#</th>
             <th scope="col">Judul</th>
             <th scope="col">Category</th>
+            {{-- <th scope="col">foto</th> --}}
             <th scope="col">Action</th>
            
           </tr>
@@ -28,6 +29,11 @@
             <td>{{$loop->iteration}}</td>
             <td>{{$post->judul}}</td>
             <td>{{$post->category->name}}</td>
+            {{-- <td>
+              <a href="{{asset('storage/'.$post->foto)}}" target="_blank">
+                  <img alt="avatar" src="{{asset('storage/'.$post->foto)}}" style="width:150px;height:150px;">
+              </a>
+          </td> --}}
             <td>
             
                 <a href="/dashboard/posts/{{$post->slug}}">lihat</a>

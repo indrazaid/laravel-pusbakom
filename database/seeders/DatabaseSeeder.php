@@ -33,6 +33,8 @@ class DatabaseSeeder extends Seeder
 
         ]);
 
+        // User::factory(3)->create();
+
         Post::create([
             'judul'=>'Judul Pertama',
             'category_id'=>'1',

@@ -41,12 +41,20 @@ class DashboardPostController extends Controller
     public function store(Request $request)
     {
         // return $request;
+        // return $request->file('foto')->store('post-images');
+
         $data = $request->validate([
             'judul' => 'required',
             'slug' => 'required|unique:posts',
             'category_id' => 'required',
+            'foto' => 'nullable|image|file|mimes:jpeg,jpg,svg,png,gif|max:2048',
             'body' => 'required'
         ]);
+
+        if ($request->file('foto'))
+        {
+            $data['foto'] = $request->file('foto')->store('post-images');
+        }
 
         $data['user_id'] = auth()->user()->id;
         Post::create($data);
@@ -108,9 +116,14 @@ class DashboardPostController extends Controller
             'judul' => 'required',
             'slug' => 'required|unique:posts,slug,' . $post->id,
             'category_id' => 'required',
+            'foto' => 'nullable|image|file|mimes:jpeg,jpg,svg,png,gif|max:2048',
             'body' => 'required'
         ]);
-
+        
+        if ($request->file('foto'))
+        {
+            $data['foto'] = $request->file('foto')->store('post-images');
+        }
         $data['user_id'] = auth()->user()->id;
         Post::where('id', $post->id)->update($data);
         return redirect('/dashboard/posts')->withSuccess('Data berhasil diubah');

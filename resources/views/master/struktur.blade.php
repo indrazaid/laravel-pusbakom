@@ -50,7 +50,7 @@
                      <div class="sidebar__post p-relative">
                         <div class="rc__post d-flex align-items-center">
                            <div class="rc__post-thumb mr-20">
-                              <a href="/detail"><img src="assets/img/sideber/resent-post.png" alt=""></a>
+                              <a href="/detail"><img src="{{asset('storage/'.$recentPost->foto)}}" alt=""></a>
                               <span> <i class="flaticon-right-arrows"></i></span>
                            </div>
                            <div class="rc__post-content">

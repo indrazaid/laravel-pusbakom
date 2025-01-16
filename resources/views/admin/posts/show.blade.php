@@ -14,6 +14,8 @@
                          
                    </div>
                    <div class="postbox__content">
+
+                     
                       
                       <h3 class="postbox__title">
                         {{ $post->judul }}
@@ -26,7 +28,12 @@
                           
                           {{ $post->category->name }}</a></span>
                      </div>
+                      
+                     <div style="max-height: 350px;overflow:hidden;">
+                        <img src="{{asset('storage/'.$post->foto)}}" alt="{{$post->category->name}}" class="img-fluid mt-3">
+                     </div>
                       <div class="postbox__text">
+                      
                        
                          <p>{!! $post->body !!}</p>
                       </div>

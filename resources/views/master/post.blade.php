@@ -29,7 +29,7 @@
           <div class="col-xl-4 col-md-6 col-sm-6">
              <div class="tpblog pb-30">
                 <div class="tpblog__thumb-2 fix">
-                   <a href="/detail"><img src="assets/img/blog/img2.jpg" alt=""></a>
+                   <a href="/post/{{$val->slug}}" > <img src="{{asset('storage/'.$val->foto)}}" alt="{{$val->category->name}}" class="img-fluid mt-3"></a>
                    <div class="tpblog__catagori-2">
                       <span><a href="/post/{{$val->slug}}">{{$val->category->name}}</a></span>
                    </div>
