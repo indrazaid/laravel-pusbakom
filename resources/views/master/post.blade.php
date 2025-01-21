@@ -53,7 +53,8 @@
           </div>
          
           @endforeach
-
+         
+         {{ $post->links('pagination::bootstrap-4') }}
           <div class="sidebar__widget-content">
                   
                          
